@@ -7,16 +7,16 @@
 //
 
 #import "RecipesViewController.h"
+#import "RecipesAppDelegate.h"
+
 
 @implementation RecipesViewController
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:
-(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:
-                             @"recipeCell"];
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath 
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"recipeCell"];
     if(nil == cell){
-        cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:@"recipeCell"]
-                autorelease];
+        cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:@"recipeCell"] autorelease];
     }
                  
     if(indexPath.row == 0){
@@ -33,9 +33,9 @@
     return 3;   
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)
-indexPath {
-    [appDelegate recipeClicked:[[tableView cellForRowAtIndexPath:indexPath] text]];
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath 
+{
+    [appDelegate recipeClicked:[[tableView cellForRowAtIndexPath:indexPath] textLabel].text];
 }
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.

@@ -11,15 +11,26 @@
 
 @implementation IngredientsViewController
 
-- (UITableViewCell *)tableView:(UITableView *)tv cellForRowAtIndexPath:(NSIndexPath *)
-indexPath {
-    UITableViewCell *cell = [[UITableView alloc] initWithFrame:CGRectZero
-                                               reuseIdentifier:nil];
+@synthesize ingredients;
+
+- (void)loadIngredients 
+{
+    [tableView reloadData];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tv cellForRowAtIndexPath:(NSIndexPath *)indexPath 
+{
+    UITableViewCell *cell = [tv dequeueReusableCellWithIdentifier:@"ingredientsCell"];
+    if (nil == cell) {
+        cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:nil] autorelease];
+    }
+    cell.textLabel.text = [self.ingredients objectAtIndex:indexPath.row];
     return cell;
 }
 
--(NSInteger)tableView:(UITableView *)tv numberOfRowsInSection:(NSInteger)section {
-    return 1;
+-(NSInteger)tableView:(UITableView *)tv numberOfRowsInSection:(NSInteger)section 
+{
+    return [self.ingredients count];;
 }
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.

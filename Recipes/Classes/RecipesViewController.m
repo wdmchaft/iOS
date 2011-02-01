@@ -22,7 +22,7 @@
     if(indexPath.row == 0){
         cell.textLabel.text = @"Regular Dim Sum";
     } else if(indexPath.row == 1){
-        cell.textLabel.text = @"Bangin Dim Sum";
+        cell.textLabel.text = @"Bangin' Dim Sum";
     } else if(indexPath.row == 2){
         cell.textLabel.text = @"The Illest Dim Sum";
     }
@@ -33,7 +33,10 @@
     return 3;   
 }
 
-
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)
+indexPath {
+    [appDelegate recipeClicked:[[tableView cellForRowAtIndexPath:indexPath] text]];
+}
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {

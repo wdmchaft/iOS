@@ -1,7 +1,7 @@
 TRecipes
 v7
 r0
-t318284841.730551
+t318287340.767146
 cCheck dependencies
 cProcessInfoPlistFile /Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app/Info.plist Recipes-Info.plist
 cCompileXIB /Users/michaelmatranga/iOS/Recipes/MainWindow.xib
@@ -140,51 +140,51 @@ s355
 i<UIKit/UIKit.h>
 
 N/Users/michaelmatranga/iOS/Recipes/Classes/IngredientsViewController.h
-c000000004D486ADA00000000000000EF
-t1296591578
+c000000004D486E4900000000000000EF
+t1296592457
 s239
 i<UIKit/UIKit.h>
 
 N/Users/michaelmatranga/iOS/Recipes/Classes/IngredientsViewController.m
-c000000004D486ADA0000000000000632
-t1296591578
-s1586
+c000000004D4875F3000000000000079C
+t1296594419
+s1948
 i"IngredientsViewController.h"
 
 N/Users/michaelmatranga/iOS/Recipes/Classes/RecipesAppDelegate.h
-c000000004D4869E40000000000000287
-t1296591332
-s647
+c000000004D4875B900000000000002B6
+t1296594361
+s694
 i<UIKit/UIKit.h>
 
 N/Users/michaelmatranga/iOS/Recipes/Classes/RecipesAppDelegate.m
-c000000004D486C2B0000000000000AE0
-t1296591915
-s2784
+c000000004D4875B90000000000000B5C
+t1296594361
+s2908
 i"RecipesAppDelegate.h"
 i"RecipesViewController.h"
 
 N/Users/michaelmatranga/iOS/Recipes/Classes/RecipesViewController.h
-c000000004D472ECE0000000000000105
-t1296510670
-s261
+c000000004D4871E10000000000000168
+t1296593377
+s360
 i<UIKit/UIKit.h>
 
 N/Users/michaelmatranga/iOS/Recipes/Classes/RecipesViewController.m
-c000000004D486CA500000000000008C3
-t1296592037
-s2243
+c000000004D4871720000000000000978
+t1296593266
+s2424
 i"RecipesViewController.h"
 
 N/Users/michaelmatranga/iOS/Recipes/Ingredients.xib
-c000000004D486B9800000000000044F7
-t1296591768
+c000000004D486F5F00000000000044F7
+t1296592735
 s17655
 
 N/Users/michaelmatranga/iOS/Recipes/MainWindow.xib
-c000000004D486C770000000000006D30
-t1296591991
-s27952
+c000000004D487668000000000000706E
+t1296594536
+s28782
 
 N/Users/michaelmatranga/iOS/Recipes/RecipesViewController.xib
 c000000004D48644000000000000041EA
@@ -199,11 +199,11 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app
-t1296592041
+t1296594540
 s272
 
 N/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app.dSYM
-t1296592041
+t1296594421
 s102
 
 N/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app/Info.plist
@@ -211,41 +211,41 @@ t1296589591
 s591
 
 N/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app/Ingredients.nib
-t1296591920
+t1296592847
 s1067
 
 N/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app/MainWindow.nib
-t1296591993
-s1773
+t1296594540
+s1817
 
 N/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app/PkgInfo
 t1296589591
 s8
 
 N/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes
-t1296592041
-s18860
+t1296594421
+s23820
 
 N/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app/RecipesViewController.nib
 t1296589892
 s1000
 
 N/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/IngredientsViewController.o
-t1296591627
-s37776
+t1296594421
+s39872
 
 N/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/Recipes.LinkFileList
-c000000004D486B0B000000000000020C
-t1296591627
+c000000004D486EE3000000000000020C
+t1296592611
 s524
 
 N/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesAppDelegate.o
-t1296591920
-s53836
+t1296594361
+s54532
 
 N/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesViewController.o
-t1296592041
-s43164
+t1296594361
+s47220
 
 N/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/main.o
 t1296589592
@@ -272,11 +272,11 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies318284841#318284841#0(0"0(0#1#0"8665138208#0"0#
+lSLF07#2@18"Check dependencies318287340#318287340#0(0"0(0#1#0"8661007136#0"0#
 
 CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/IngredientsViewController.o /Users/michaelmatranga/iOS/Recipes/Classes/IngredientsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s318284427.742140
-e318284427.813414
+s318287220.905816
+e318287221.016082
 r1
 xCompileC
 xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/IngredientsViewController.o
@@ -285,7 +285,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/michaelmatranga/iOS/Recipes/Classes/IngredientsViewController.m318284427#318284427#0(0"0(0#0#70"/Users/michaelmatranga/iOS/Recipes/Classes/IngredientsViewController.m8652228128#1920"    cd /Users/michaelmatranga/iOS/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator -I/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/include -I/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/dA/dAHsQ+ZhHCmclcSKx3zp0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-foppqwlkygfhevbqkvswgealobev/Recipes_Prefix.pch -c /Users/michaelmatranga/iOS/Recipes/Classes/IngredientsViewController.m -o /Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/IngredientsViewController.o0#
+lSLF07#2@78"Compile /Users/michaelmatranga/iOS/Recipes/Classes/IngredientsViewController.m318287220#318287221#0(0"0(0#0#70"/Users/michaelmatranga/iOS/Recipes/Classes/IngredientsViewController.m8655399616#1920"    cd /Users/michaelmatranga/iOS/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator -I/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/include -I/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/dA/dAHsQ+ZhHCmclcSKx3zp0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-foppqwlkygfhevbqkvswgealobev/Recipes_Prefix.pch -c /Users/michaelmatranga/iOS/Recipes/Classes/IngredientsViewController.m -o /Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/IngredientsViewController.o0#
 
 CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesAppDelegate.o /Users/michaelmatranga/Desktop/Recipes/Classes/RecipesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s318203717.519481
@@ -301,8 +301,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@75"Compile /Users/michaelmatranga/Desktop/Recipes/Classes/RecipesAppDelegate.m318203717#318203717#0(0"0(0#0#67"/Users/michaelmatranga/Desktop/Recipes/Classes/RecipesAppDelegate.m8031162178872815616#1950"    cd /Users/michaelmatranga/Desktop/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/michaelmatranga/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/michaelmatranga/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/michaelmatranga/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/michaelmatranga/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/michaelmatranga/Desktop/Recipes/build/Debug-iphonesimulator -I/Users/michaelmatranga/Desktop/Recipes/build/Debug-iphonesimulator/include -I/Users/michaelmatranga/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/michaelmatranga/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/dA/dAHsQ+ZhHCmclcSKx3zp0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-eiuiezmllppxewbpeljdnmmmchan/Recipes_Prefix.pch -c /Users/michaelmatranga/Desktop/Recipes/Classes/RecipesAppDelegate.m -o /Users/michaelmatranga/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesAppDelegate.o0#
 
 CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesAppDelegate.o /Users/michaelmatranga/iOS/Recipes/Classes/RecipesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s318284720.667528
-e318284720.817476
+s318287161.735583
+e318287161.924767
 r1
 xCompileC
 xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesAppDelegate.o
@@ -311,7 +311,9 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/michaelmatranga/iOS/Recipes/Classes/RecipesAppDelegate.m318284720#318284720#0(0"0(0#0#63"/Users/michaelmatranga/iOS/Recipes/Classes/RecipesAppDelegate.m8662426560#1906"    cd /Users/michaelmatranga/iOS/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator -I/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/include -I/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/dA/dAHsQ+ZhHCmclcSKx3zp0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-foppqwlkygfhevbqkvswgealobev/Recipes_Prefix.pch -c /Users/michaelmatranga/iOS/Recipes/Classes/RecipesAppDelegate.m -o /Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesAppDelegate.o0#
+o/Users/michaelmatranga/iOS/Recipes/Classes/RecipesAppDelegate.m: In function '-[RecipesAppDelegate recipeClicked:]':
+o/Users/michaelmatranga/iOS/Recipes/Classes/RecipesAppDelegate.m:18: warning: incompatible Objective-C types 'struct IngredientsViewController *', expected 'struct UIViewController *' when passing argument 1 of 'pushViewController:animated:' from distinct Objective-C type
+lSLF07#2@71"Compile /Users/michaelmatranga/iOS/Recipes/Classes/RecipesAppDelegate.m318287161#318287162#0(389"/Users/michaelmatranga/iOS/Recipes/Classes/RecipesAppDelegate.m: In function '-[RecipesAppDelegate recipeClicked:]':/Users/michaelmatranga/iOS/Recipes/Classes/RecipesAppDelegate.m:18: warning: incompatible Objective-C types 'struct IngredientsViewController *', expected 'struct UIViewController *' when passing argument 1 of 'pushViewController:animated:' from distinct Objective-C type1(22@194"Incompatible Objective-C types 'struct IngredientsViewController *', expected 'struct UIViewController *' when passing argument 1 of 'pushViewController:animated:' from distinct Objective-C type318287161#117#272#0(6@63"/Users/michaelmatranga/iOS/Recipes/Classes/RecipesAppDelegate.m318287161#18#0#18#0#0"0(0#0#63"/Users/michaelmatranga/iOS/Recipes/Classes/RecipesAppDelegate.m8632559872#1906"    cd /Users/michaelmatranga/iOS/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator -I/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/include -I/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/dA/dAHsQ+ZhHCmclcSKx3zp0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-foppqwlkygfhevbqkvswgealobev/Recipes_Prefix.pch -c /Users/michaelmatranga/iOS/Recipes/Classes/RecipesAppDelegate.m -o /Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesAppDelegate.o0#
 
 CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesViewController.o /Users/michaelmatranga/Desktop/Recipes/Classes/RecipesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s318203717.555433
@@ -327,8 +329,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@78"Compile /Users/michaelmatranga/Desktop/Recipes/Classes/RecipesViewController.m318203717#318203717#0(0"0(0#0#70"/Users/michaelmatranga/Desktop/Recipes/Classes/RecipesViewController.m8617750752#1956"    cd /Users/michaelmatranga/Desktop/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/michaelmatranga/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/michaelmatranga/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/michaelmatranga/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/michaelmatranga/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/michaelmatranga/Desktop/Recipes/build/Debug-iphonesimulator -I/Users/michaelmatranga/Desktop/Recipes/build/Debug-iphonesimulator/include -I/Users/michaelmatranga/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/michaelmatranga/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/dA/dAHsQ+ZhHCmclcSKx3zp0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-eiuiezmllppxewbpeljdnmmmchan/Recipes_Prefix.pch -c /Users/michaelmatranga/Desktop/Recipes/Classes/RecipesViewController.m -o /Users/michaelmatranga/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesViewController.o0#
 
 CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesViewController.o /Users/michaelmatranga/iOS/Recipes/Classes/RecipesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s318284841.539394
-e318284841.684468
+s318287161.736388
+e318287161.850042
 r1
 xCompileC
 xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesViewController.o
@@ -337,7 +339,13 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/michaelmatranga/iOS/Recipes/Classes/RecipesViewController.m318284841#318284841#0(0"0(0#0#66"/Users/michaelmatranga/iOS/Recipes/Classes/RecipesViewController.m8656886272#1912"    cd /Users/michaelmatranga/iOS/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator -I/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/include -I/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/dA/dAHsQ+ZhHCmclcSKx3zp0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-foppqwlkygfhevbqkvswgealobev/Recipes_Prefix.pch -c /Users/michaelmatranga/iOS/Recipes/Classes/RecipesViewController.m -o /Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesViewController.o0#
+o/Users/michaelmatranga/iOS/Recipes/Classes/RecipesViewController.m: In function '-[RecipesViewController tableView:didSelectRowAtIndexPath:]':
+o/Users/michaelmatranga/iOS/Recipes/Classes/RecipesViewController.m:38: warning: 'text' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:193)
+o/Users/michaelmatranga/iOS/Recipes/Classes/RecipesViewController.m:38: warning: no '-recipeClicked:' method found
+o/Users/michaelmatranga/iOS/Recipes/Classes/RecipesViewController.m:38: warning: (Messages without a matching method signature
+o/Users/michaelmatranga/iOS/Recipes/Classes/RecipesViewController.m:38: warning: will be assumed to return 'id' and accept
+o/Users/michaelmatranga/iOS/Recipes/Classes/RecipesViewController.m:38: warning: '...' as arguments.)
+lSLF07#2@74"Compile /Users/michaelmatranga/iOS/Recipes/Classes/RecipesViewController.m318287161#318287161#0(877"/Users/michaelmatranga/iOS/Recipes/Classes/RecipesViewController.m: In function '-[RecipesViewController tableView:didSelectRowAtIndexPath:]':/Users/michaelmatranga/iOS/Recipes/Classes/RecipesViewController.m:38: warning: 'text' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:193)/Users/michaelmatranga/iOS/Recipes/Classes/RecipesViewController.m:38: warning: no '-recipeClicked:' method found/Users/michaelmatranga/iOS/Recipes/Classes/RecipesViewController.m:38: warning: (Messages without a matching method signature/Users/michaelmatranga/iOS/Recipes/Classes/RecipesViewController.m:38: warning: will be assumed to return 'id' and accept/Users/michaelmatranga/iOS/Recipes/Classes/RecipesViewController.m:38: warning: '...' as arguments.)3(22@190"'text' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:193)318287161#143#271#0(6@66"/Users/michaelmatranga/iOS/Recipes/Classes/RecipesViewController.m318286066#38#0#38#0#33"'*' is deprecated (declared at *)0(22@33"No '-recipeClicked:' method found318287161#414#114#0(6@66"/Users/michaelmatranga/iOS/Recipes/Classes/RecipesViewController.m318286066#38#0#38#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)318287161#528#126#0(6@66"/Users/michaelmatranga/iOS/Recipes/Classes/RecipesViewController.m318286066#38#0#38#0#0"0(0#0#66"/Users/michaelmatranga/iOS/Recipes/Classes/RecipesViewController.m8604284288#1912"    cd /Users/michaelmatranga/iOS/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator -I/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/include -I/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/dA/dAHsQ+ZhHCmclcSKx3zp0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-foppqwlkygfhevbqkvswgealobev/Recipes_Prefix.pch -c /Users/michaelmatranga/iOS/Recipes/Classes/RecipesViewController.m -o /Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesViewController.o0#
 
 CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/main.o /Users/michaelmatranga/Desktop/Recipes/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s318183926.414615
@@ -382,20 +390,20 @@ x/Users/michaelmatranga/Desktop/Recipes/RecipesViewController.xib
 lSLF07#2@36"CompileXIB RecipesViewController.xib318183924#318183925#0(0"0(0#0#64"/Users/michaelmatranga/Desktop/Recipes/RecipesViewController.xib8645491168#592"    cd /Users/michaelmatranga/Desktop/Recipes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/michaelmatranga/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/RecipesViewController.nib /Users/michaelmatranga/Desktop/Recipes/RecipesViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB /Users/michaelmatranga/iOS/Recipes/Ingredients.xib
-s318284720.292107
-e318284720.666676
+s318285647.322352
+e318285647.677549
 r1
 xCompileXIB
 x/Users/michaelmatranga/iOS/Recipes/Ingredients.xib
-lSLF07#2@26"CompileXIB Ingredients.xib318284720#318284720#0(0"0(0#0#50"/Users/michaelmatranga/iOS/Recipes/Ingredients.xib8654480896#560"    cd /Users/michaelmatranga/iOS/Recipes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app/Ingredients.nib /Users/michaelmatranga/iOS/Recipes/Ingredients.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+lSLF07#2@26"CompileXIB Ingredients.xib318285647#318285647#0(0"0(0#0#50"/Users/michaelmatranga/iOS/Recipes/Ingredients.xib8655305408#560"    cd /Users/michaelmatranga/iOS/Recipes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app/Ingredients.nib /Users/michaelmatranga/iOS/Recipes/Ingredients.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB /Users/michaelmatranga/iOS/Recipes/MainWindow.xib
-s318284792.687070
-e318284793.052168
+s318287340.401700
+e318287340.764599
 r1
 xCompileXIB
 x/Users/michaelmatranga/iOS/Recipes/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib318284792#318284793#0(0"0(0#0#49"/Users/michaelmatranga/iOS/Recipes/MainWindow.xib8639557056#558"    cd /Users/michaelmatranga/iOS/Recipes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app/MainWindow.nib /Users/michaelmatranga/iOS/Recipes/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+lSLF07#2@25"CompileXIB MainWindow.xib318287340#318287340#0(0"0(0#0#49"/Users/michaelmatranga/iOS/Recipes/MainWindow.xib8655510336#558"    cd /Users/michaelmatranga/iOS/Recipes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app/MainWindow.nib /Users/michaelmatranga/iOS/Recipes/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB /Users/michaelmatranga/iOS/Recipes/RecipesViewController.xib
 s318282691.969715
@@ -415,13 +423,13 @@ x/Users/michaelmatranga/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/
 lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/Recipes.app.dSYM build/Debug-iphonesimulator/Recipes.app/Recipes318203717#318203717#0(0"0(0#0#86"/Users/michaelmatranga/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes8616703008#383"    cd /Users/michaelmatranga/Desktop/Recipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/michaelmatranga/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes -o /Users/michaelmatranga/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app.dSYM0#
 
 CGenerateDSYMFile /Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app.dSYM /Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes
-s318284841.709670
-e318284841.728498
+s318287221.035323
+e318287221.050497
 r1
 xGenerateDSYMFile
 x/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app.dSYM
 x/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes
-lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/Recipes.app.dSYM build/Debug-iphonesimulator/Recipes.app/Recipes318284841#318284841#0(0"0(0#0#82"/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes8664702944#371"    cd /Users/michaelmatranga/iOS/Recipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes -o /Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app.dSYM0#
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/Recipes.app.dSYM build/Debug-iphonesimulator/Recipes.app/Recipes318287221#318287221#0(0"0(0#0#82"/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes8665143232#371"    cd /Users/michaelmatranga/iOS/Recipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes -o /Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app.dSYM0#
 
 CLd /Users/michaelmatranga/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes normal i386
 s318203717.700246
@@ -434,14 +442,14 @@ xi386
 lSLF07#2@91"Link /Users/michaelmatranga/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes318203717#318203717#0(0"0(0#0#0"28429445101453416#900"    cd /Users/michaelmatranga/Desktop/Recipes    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/michaelmatranga/Desktop/Recipes/build/Debug-iphonesimulator -F/Users/michaelmatranga/Desktop/Recipes/build/Debug-iphonesimulator -filelist /Users/michaelmatranga/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/Recipes.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/michaelmatranga/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes0#
 
 CLd /Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes normal i386
-s318284841.684585
-e318284841.709580
+s318287221.016171
+e318287221.035230
 r1
 xLd
 x/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes
 xnormal
 xi386
-lSLF07#2@87"Link /Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes318284841#318284841#0(0"0(0#0#0"8664762912#880"    cd /Users/michaelmatranga/iOS/Recipes    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator -F/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator -filelist /Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/Recipes.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes0#
+lSLF07#2@87"Link /Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes318287221#318287221#0(0"0(0#0#0"8667053568#880"    cd /Users/michaelmatranga/iOS/Recipes    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator -F/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator -filelist /Users/michaelmatranga/iOS/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/Recipes.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes0#
 
 CProcessInfoPlistFile /Users/michaelmatranga/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/Info.plist Recipes-Info.plist
 s318183924.641980
@@ -496,10 +504,10 @@ x/Users/michaelmatranga/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app
 lSLF07#2@84"Touch /Users/michaelmatranga/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app318203717#318203717#0(0"0(0#0#0"8617793792#278"    cd /Users/michaelmatranga/Desktop/Recipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/michaelmatranga/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app0#
 
 CTouch /Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app
-s318284841.728579
-e318284841.730521
+s318287340.765248
+e318287340.767117
 r1
 xTouch
 x/Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app
-lSLF07#2@80"Touch /Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app318284841#318284841#0(0"0(0#0#0"8657143584#270"    cd /Users/michaelmatranga/iOS/Recipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app0#
+lSLF07#2@80"Touch /Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app318287340#318287340#0(0"0(0#0#0"8660716256#270"    cd /Users/michaelmatranga/iOS/Recipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/michaelmatranga/iOS/Recipes/build/Debug-iphonesimulator/Recipes.app0#
 

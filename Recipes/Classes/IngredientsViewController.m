@@ -11,6 +11,17 @@
 
 @implementation IngredientsViewController
 
+- (UITableViewCell *)tableView:(UITableView *)tv cellForRowAtIndexPath:(NSIndexPath *)
+indexPath {
+    UITableViewCell *cell = [[UITableView alloc] initWithFrame:CGRectZero
+                                               reuseIdentifier:nil];
+    return cell;
+}
+
+-(NSInteger)tableView:(UITableView *)tv numberOfRowsInSection:(NSInteger)section {
+    return 1;
+}
+
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {

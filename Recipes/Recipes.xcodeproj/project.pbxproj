@@ -15,6 +15,8 @@
 		2899E5220DE3E06400AC0155 /* RecipesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* RecipesViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* RecipesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */; };
+		D6F3386D12F8A5C90070303B /* IngredientsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */; };
+		D6F3386F12F8A6000070303B /* Ingredients.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6F3386E12F8A6000070303B /* Ingredients.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,9 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Recipes_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipes_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Recipes-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Recipes-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		D6F3386B12F8A5C90070303B /* IngredientsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientsViewController.h; sourceTree = "<group>"; };
+		D6F3386C12F8A5C90070303B /* IngredientsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientsViewController.m; sourceTree = "<group>"; };
+		D6F3386E12F8A6000070303B /* Ingredients.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Ingredients.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +59,8 @@
 				1D3623250D0F684500981E51 /* RecipesAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */,
+				D6F3386B12F8A5C90070303B /* IngredientsViewController.h */,
+				D6F3386C12F8A5C90070303B /* IngredientsViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -93,6 +100,7 @@
 				2899E5210DE3E06400AC0155 /* RecipesViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Recipes-Info.plist */,
+				D6F3386E12F8A6000070303B /* Ingredients.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -158,6 +166,7 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* RecipesViewController.xib in Resources */,
+				D6F3386F12F8A6000070303B /* Ingredients.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +180,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* RecipesAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* RecipesViewController.m in Sources */,
+				D6F3386D12F8A5C90070303B /* IngredientsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

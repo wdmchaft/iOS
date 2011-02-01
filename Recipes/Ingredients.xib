@@ -42,7 +42,7 @@
 				<int key="NSvFlags">274</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="IBUITableView" id="540376941">
+					<object class="IBUITableView" id="980423665">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">274</int>
 						<string key="NSFrameSize">{320, 460}</string>
@@ -89,7 +89,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">dataSource</string>
-						<reference key="source" ref="540376941"/>
+						<reference key="source" ref="980423665"/>
 						<reference key="destination" ref="372490531"/>
 					</object>
 					<int key="connectionID">5</int>
@@ -109,7 +109,7 @@
 						<reference key="object" ref="191373211"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="540376941"/>
+							<reference ref="980423665"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -126,7 +126,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">3</int>
-						<reference key="object" ref="540376941"/>
+						<reference key="object" ref="980423665"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 				</object>
@@ -145,7 +145,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>IngredientsViewController</string>
 					<string>UIResponder</string>
-					<string>{{594, 546}, {320, 480}}</string>
+					<string>{{683, 375}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				</object>
@@ -268,7 +268,7 @@
 				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="403638392">
+					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="161248706">
 						<string key="majorKey">IBFrameworkSource</string>
 						<string key="minorKey">UIKit.framework/Headers/UIResponder.h</string>
 					</object>
@@ -276,7 +276,7 @@
 				<object class="IBPartialClassDescription">
 					<string key="className">UIResponder</string>
 					<string key="superclassName">NSObject</string>
-					<reference key="sourceIdentifier" ref="403638392"/>
+					<reference key="sourceIdentifier" ref="161248706"/>
 				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">UIScrollView</string>

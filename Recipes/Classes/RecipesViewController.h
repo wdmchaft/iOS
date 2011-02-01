@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class RecipesAppDelegate;
+
 @interface RecipesViewController : UIViewController 
-    <UITableViewDataSource> {
+    <UITableViewDataSource, UITableViewDelegate> {
+        IBOutlet RecipesAppDelegate *appDelegate;
 
 }
 

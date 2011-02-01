@@ -14,6 +14,9 @@
 @synthesize window;
 @synthesize recipesController;
 
+- (void)recipeClicked:(NSString *)recipeName;{
+    [navController pushViewController:ingredientsController animated:YES];
+}
 
 #pragma mark -
 #pragma mark Application lifecycle

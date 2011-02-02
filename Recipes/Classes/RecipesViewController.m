@@ -23,6 +23,7 @@
     } else if(indexPath.row == 2) {
         cell.textLabel.text = @"The Illest Dim Sum";
     }
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
 

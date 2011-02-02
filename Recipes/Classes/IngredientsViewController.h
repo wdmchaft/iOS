@@ -7,6 +7,6 @@
 
 @property (nonatomic, retain) NSArray* ingredients;
 
-- (void) loadIngredients;
+
 
 @end

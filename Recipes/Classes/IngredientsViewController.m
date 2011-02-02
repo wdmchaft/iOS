@@ -10,8 +10,10 @@
     [super dealloc];
 }
 
-- (void) loadIngredients 
+- (void) setIngredients:(NSArray*)newIngredients
 {
+    [ingredients release];
+    ingredients = [newIngredients retain];
     [tableView reloadData];
 }
 

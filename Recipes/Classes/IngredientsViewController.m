@@ -10,6 +10,13 @@
     [super dealloc];
 }
 
+- (void) setEditing:(BOOL)editing animated:(BOOL)animated
+{
+    [super setEditing:editing animated:animated];
+    [tableView setEditing:editing animated:animated];
+    [tableView reloadData];
+}
+
 - (void) setIngredients:(NSArray*)newIngredients
 {
     [ingredients release];
@@ -23,13 +30,31 @@
     if (nil == cell) {
         cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:nil] autorelease];
     }
-    cell.textLabel.text = [self.ingredients objectAtIndex:indexPath.row];
-    return cell;
+    if(indexPath.row < self.ingredients.count) {
+        cell.textLabel.text = [self.ingredients objectAtIndex:indexPath.row];
+    } else {
+        cell.textLabel.text = @"Add New Ingredient";
+        [cell.textLabel setTextColor:[UIColor lightGrayColor]];
+        cell.accessoryType = UITableViewCellAccessoryNone;
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    }
+
+        return cell;
 }
 
 - (NSInteger) tableView:(UITableView*)tv numberOfRowsInSection:(NSInteger)section 
 {
-    return [self.ingredients count];
+    NSInteger count = self.ingredients.count;
+    if(self.editing) {
+        count++;
+    }
+        
+    return count;
+}
+
+-(void) viewDidLoad
+{
+    self.navigationItem.rightBarButtonItem = self.editButtonItem;    
 }
 
 @end

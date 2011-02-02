@@ -45,7 +45,7 @@
 - (void) recipeClicked:(NSString*)recipeName 
 {
     ingredientsController.ingredients = [self ingredientsForRecipe:recipeName];
-    [ingredientsController ingredients];
+    ingredientsController.title = recipeName;
     [navController pushViewController:ingredientsController animated:YES];
 }
 

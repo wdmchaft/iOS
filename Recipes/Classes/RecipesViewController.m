@@ -1,6 +1,6 @@
 #import "RecipesViewController.h"
 #import "RecipesAppDelegate.h"
-
+#import "AddRecipesViewController.h"
 
 @implementation RecipesViewController
 
@@ -9,27 +9,32 @@
     [super dealloc];
 }
 
+- (IBAction) edit:(id)sender
+{
+    [self presentModalViewController:addRecipeController animated:YES];
+}
+
+- (void) addNewRecipeNamed:(NSString*) recipeName
+{
+    [appDelegate addNewRecipeNamed:recipeName];
+    [tableView reloadData];
+}
+
+
 - (UITableViewCell*) tableView:(UITableView*)tableView cellForRowAtIndexPath:(NSIndexPath*)indexPath 
 {
     UITableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:@"recipeCell"];
     if (nil == cell){
         cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:@"recipeCell"] autorelease];
     }
-                 
-    if (indexPath.row == 0) {
-        cell.textLabel.text = @"Regular Dim Sum";
-    } else if(indexPath.row == 1) {
-        cell.textLabel.text = @"Bangin' Dim Sum";
-    } else if(indexPath.row == 2) {
-        cell.textLabel.text = @"The Illest Dim Sum";
-    }
+    cell.textLabel.text = [appDelegate.recipes objectAtIndex:indexPath.row];             
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
 
 - (NSInteger) tableView:(UITableView*)tv numberOfRowsInSection:(NSInteger)section 
 {
-    return 3;   
+    return [appDelegate.recipes count];   
 }
 
 - (void) tableView:(UITableView*)tableView didSelectRowAtIndexPath:(NSIndexPath*)indexPath 
@@ -37,4 +42,11 @@
     [appDelegate recipeClicked:[[tableView cellForRowAtIndexPath:indexPath] textLabel].text];
 }
 
+- (void) viewDidLoad 
+{
+    [super viewDidLoad];
+    self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd                                                                                             target:self action: @selector(edit:)] autorelease];
+}
+                                               
+                                               
 @end

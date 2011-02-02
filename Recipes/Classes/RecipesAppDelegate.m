@@ -6,6 +6,7 @@
 
 @synthesize window;
 @synthesize recipesController;
+@synthesize recipes;
 
 - (void) dealloc 
 {
@@ -17,17 +18,28 @@
      
 }
 
+- (NSArray*) recipes 
+{
+    return [data allKeys];
+}
+
+- (void) addNewRecipeNamed:(NSString*) recipeName
+{
+    [data setValue:[NSMutableArray array] forKey:recipeName];
+}
+
+
+- (void) createDefaultData
+{
+    data = [[NSMutableDictionary dictionary] retain];
+    [data setValue:[NSMutableArray arrayWithObjects:@"Dim Sum", @"Loose Noodles", @"MSG", nil] forKey:@"Regular Dim Sum"];
+    [data setValue:[NSMutableArray arrayWithObjects:@"Dim Sum", @"Mad Flavor", @"Heavy Flow", @"Bangin n00dlz", nil] forKey:@"Bangin' Dim Sum"];
+    [data setValue:[NSMutableArray arrayWithObjects:@"Dim Sum", @"Mad Crazy Flavor", @"The Heaviest Flow", @"The Illest Types of n00dlz", nil] forKey:@"The Illest Dim Sum"];
+}
+
 - (NSArray*) ingredientsForRecipe:(NSString*)recipeName 
 {
-    NSArray* ingredients = nil;
-    if ([@"Regular Dim Sum" isEqualToString:recipeName]) {
-        ingredients = [NSArray arrayWithObjects:@"Dim Sum", @"Loose Noodles", @"MSG", nil];
-    } else if([@"Bangin' Dim Sum" isEqualToString:recipeName]) {
-        ingredients = [NSArray arrayWithObjects:@"Dim Sum", @"Mad Flavor", @"Heavy Flow", @"Bangin n00dlz", nil];
-    } else if([@"The Illest Dim Sum" isEqualToString:recipeName]) {
-        ingredients = [NSArray arrayWithObjects:@"Dim Sum", @"Mad Crazy Flavor", @"The Heaviest Flow", @"The Illest Types of n00dlz", nil];
-    }
-    return ingredients;
+    return [data valueForKey:recipeName];
 }
 
 - (void) recipeClicked:(NSString*)recipeName 
@@ -43,6 +55,7 @@
     
     [self.window addSubview:navController.view];
     [self.window makeKeyAndVisible];
+    [self createDefaultData];
 
     return YES;
 }

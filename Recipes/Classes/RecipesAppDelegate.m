@@ -42,6 +42,12 @@
     return [data valueForKey:recipeName];
 }
 
+
+- (void) removeIngredient:(NSString*) ingredient forRecipe:(NSString*)recipe
+{
+    [[data valueForKey:recipe] removeObject:ingredient];    
+}
+
 - (void) recipeClicked:(NSString*)recipeName 
 {
     ingredientsController.ingredients = [self ingredientsForRecipe:recipeName];

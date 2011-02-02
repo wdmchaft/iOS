@@ -20,6 +20,11 @@
     [tableView reloadData];
 }
 
+- (void) removeIngredient:(NSString*) ingredient forRecipe:(NSString*)recipe
+{
+    [appDelegate removeIngredient:ingredient forRecipe:recipe];    
+}
+
 
 - (UITableViewCell*) tableView:(UITableView*)tableView cellForRowAtIndexPath:(NSIndexPath*)indexPath 
 {

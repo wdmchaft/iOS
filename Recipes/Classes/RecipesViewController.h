@@ -13,5 +13,7 @@
 
 - (void) addNewRecipeNamed:(NSString*) recipeName;
 
+- (void) removeIngredient:(NSString*) ingredient forRecipe:(NSString*)recipe;
+
 @end
 

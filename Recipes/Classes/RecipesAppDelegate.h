@@ -18,6 +18,7 @@
 
 - (void)recipeClicked:(NSString *)recipeName;
 - (void) addNewRecipeNamed:(NSString*) recipeName;
+- (void) removeIngredient:(NSString*) ingredient forRecipe:(NSString*)recipe;
 
 @end
 

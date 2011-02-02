@@ -387,7 +387,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>D63900C012F71635002C9422</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>IngredientsViewController.m</string>
+								<string>RecipesAppDelegate.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -395,21 +395,22 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>D63900C112F71635002C9422</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>IngredientsViewController.m</string>
+										<string>RecipesAppDelegate.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D6F339CB12F8D2570070303B</string>
+										<string>D6F33A0412F8D89A0070303B</string>
 										<key>history</key>
 										<array>
 											<string>D6F3376512F89A980070303B</string>
 											<string>D6F3378612F89B3A0070303B</string>
-											<string>D6F3395F12F8CCBA0070303B</string>
-											<string>D6F3398412F8CEC00070303B</string>
-											<string>D6F3398512F8CEC00070303B</string>
-											<string>D6F339AB12F8D0340070303B</string>
-											<string>D6F339C312F8D24A0070303B</string>
-											<string>D6F339C412F8D24A0070303B</string>
+											<string>D6F339EB12F8D7040070303B</string>
+											<string>D6F339FD12F8D89A0070303B</string>
+											<string>D6F339FE12F8D89A0070303B</string>
+											<string>D6F339FF12F8D89A0070303B</string>
+											<string>D6F33A0012F8D89A0070303B</string>
+											<string>D6F33A0112F8D89A0070303B</string>
+											<string>D6F33A0212F8D89A0070303B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -711,7 +712,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>318296663.24311399</real>
+	<real>318298266.909989</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
@@ -728,7 +729,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D6F339C712F8D24A0070303B</string>
+		<string>D6F33A0512F8D89A0070303B</string>
 		<string>D6F3386812F8A5AA0070303B</string>
 		<string>D6F3385B12F8A5370070303B</string>
 		<string>/Users/michaelmatranga/iOS/Recipes/Recipes.xcodeproj</string>

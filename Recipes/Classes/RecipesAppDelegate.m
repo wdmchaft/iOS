@@ -9,14 +9,17 @@
 
 - (void) dealloc 
 {
-    [recipesController release];
-    [window release];
+    [recipesController release], recipesController = nil;
+    [window release], window = nil;
+    [navController release], navController = nil;
+    [ingredientsController release], ingredientsController = nil;
     [super dealloc];
+     
 }
 
-- (NSArray *)ingredientsForRecipe:(NSString *)recipeName 
+- (NSArray*) ingredientsForRecipe:(NSString*)recipeName 
 {
-    NSArray *ingredients = nil;
+    NSArray* ingredients = nil;
     if ([@"Regular Dim Sum" isEqualToString:recipeName]) {
         ingredients = [NSArray arrayWithObjects:@"Dim Sum", @"Loose Noodles", @"MSG", nil];
     } else if([@"Bangin' Dim Sum" isEqualToString:recipeName]) {
@@ -27,19 +30,17 @@
     return ingredients;
 }
 
-- (void)recipeClicked:(NSString *)recipeName 
+- (void) recipeClicked:(NSString*)recipeName 
 {
     ingredientsController.ingredients = [self ingredientsForRecipe:recipeName];
     [ingredientsController loadIngredients];
     [navController pushViewController:ingredientsController animated:YES];
 }
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions 
+- (BOOL) application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions 
 {    
     navController.viewControllers = [NSArray arrayWithObject:recipesController];
-    // Override point for customization after application launch.
-
-    // Add the view controller's view to the window and display.
+    
     [self.window addSubview:navController.view];
     [self.window makeKeyAndVisible];
 

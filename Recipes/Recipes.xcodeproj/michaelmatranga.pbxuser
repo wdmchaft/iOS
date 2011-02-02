@@ -2,17 +2,17 @@
 {
 	1D3623240D0F684500981E51 /* RecipesAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {874, 491}}";
-			sepNavSelRange = "{675, 10}";
-			sepNavVisRange = "{0, 694}";
+			sepNavIntBoundsRect = "{{0, 0}, {1235, 503}}";
+			sepNavSelRange = "{311, 21}";
+			sepNavVisRange = "{0, 530}";
 			sepNavWindowFrame = "{{38, 772}, {1309, 620}}";
 		};
 	};
 	1D3623250D0F684500981E51 /* RecipesAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1235, 650}}";
-			sepNavSelRange = "{266, 0}";
-			sepNavVisRange = "{0, 1465}";
+			sepNavIntBoundsRect = "{{0, 0}, {1235, 624}}";
+			sepNavSelRange = "{421, 0}";
+			sepNavVisRange = "{104, 1454}";
 			sepNavWindowFrame = "{{15, 793}, {1309, 620}}";
 		};
 	};
@@ -24,16 +24,16 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {874, 491}}";
-			sepNavSelRange = "{332, 0}";
-			sepNavVisRange = "{0, 360}";
+			sepNavIntBoundsRect = "{{0, 0}, {1235, 503}}";
+			sepNavSelRange = "{162, 11}";
+			sepNavVisRange = "{0, 184}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {874, 1066}}";
-			sepNavSelRange = "{208, 0}";
-			sepNavVisRange = "{31, 1245}";
+			sepNavIntBoundsRect = "{{0, 0}, {969, 520}}";
+			sepNavSelRange = "{1075, 0}";
+			sepNavVisRange = "{0, 1077}";
 			sepNavWindowFrame = "{{61, 751}, {1309, 620}}";
 		};
 	};
@@ -457,6 +457,35 @@
 			D6F339CB12F8D2570070303B /* PBXTextBookmark */ = D6F339CB12F8D2570070303B /* PBXTextBookmark */;
 			D6F339CC12F8D2660070303B /* PBXTextBookmark */ = D6F339CC12F8D2660070303B /* PBXTextBookmark */;
 			D6F339CD12F8D2660070303B /* PBXTextBookmark */ = D6F339CD12F8D2660070303B /* PBXTextBookmark */;
+			D6F339D012F8D3AB0070303B /* PBXTextBookmark */ = D6F339D012F8D3AB0070303B /* PBXTextBookmark */;
+			D6F339D112F8D3AB0070303B /* PBXTextBookmark */ = D6F339D112F8D3AB0070303B /* PBXTextBookmark */;
+			D6F339D212F8D3AB0070303B /* PBXTextBookmark */ = D6F339D212F8D3AB0070303B /* PBXTextBookmark */;
+			D6F339D312F8D3AB0070303B /* PBXTextBookmark */ = D6F339D312F8D3AB0070303B /* PBXTextBookmark */;
+			D6F339D412F8D3AB0070303B /* PBXTextBookmark */ = D6F339D412F8D3AB0070303B /* PBXTextBookmark */;
+			D6F339D512F8D3AB0070303B /* PBXTextBookmark */ = D6F339D512F8D3AB0070303B /* PBXTextBookmark */;
+			D6F339D612F8D3AB0070303B /* PBXTextBookmark */ = D6F339D612F8D3AB0070303B /* PBXTextBookmark */;
+			D6F339D712F8D3AC0070303B /* PBXTextBookmark */ = D6F339D712F8D3AC0070303B /* PBXTextBookmark */;
+			D6F339D912F8D3B20070303B /* PBXTextBookmark */ = D6F339D912F8D3B20070303B /* PBXTextBookmark */;
+			D6F339DA12F8D3B20070303B /* PBXTextBookmark */ = D6F339DA12F8D3B20070303B /* PBXTextBookmark */;
+			D6F339DD12F8D3BF0070303B /* PBXTextBookmark */ = D6F339DD12F8D3BF0070303B /* PBXTextBookmark */;
+			D6F339DE12F8D3BF0070303B /* PBXTextBookmark */ = D6F339DE12F8D3BF0070303B /* PBXTextBookmark */;
+			D6F339E012F8D3C80070303B /* PBXTextBookmark */ = D6F339E012F8D3C80070303B /* PBXTextBookmark */;
+			D6F339EB12F8D7040070303B /* PBXTextBookmark */ = D6F339EB12F8D7040070303B /* PBXTextBookmark */;
+			D6F339EC12F8D7040070303B /* PBXTextBookmark */ = D6F339EC12F8D7040070303B /* PBXTextBookmark */;
+			D6F339ED12F8D7040070303B /* PBXTextBookmark */ = D6F339ED12F8D7040070303B /* PBXTextBookmark */;
+			D6F339EE12F8D7040070303B /* PBXTextBookmark */ = D6F339EE12F8D7040070303B /* PBXTextBookmark */;
+			D6F339EF12F8D7040070303B /* PBXTextBookmark */ = D6F339EF12F8D7040070303B /* PBXTextBookmark */;
+			D6F339F012F8D7040070303B /* PBXTextBookmark */ = D6F339F012F8D7040070303B /* PBXTextBookmark */;
+			D6F339F112F8D7040070303B /* PBXTextBookmark */ = D6F339F112F8D7040070303B /* PBXTextBookmark */;
+			D6F339F212F8D7040070303B /* PBXTextBookmark */ = D6F339F212F8D7040070303B /* PBXTextBookmark */;
+			D6F339FD12F8D89A0070303B /* PBXTextBookmark */ = D6F339FD12F8D89A0070303B /* PBXTextBookmark */;
+			D6F339FE12F8D89A0070303B /* PBXTextBookmark */ = D6F339FE12F8D89A0070303B /* PBXTextBookmark */;
+			D6F339FF12F8D89A0070303B /* PBXTextBookmark */ = D6F339FF12F8D89A0070303B /* PBXTextBookmark */;
+			D6F33A0012F8D89A0070303B /* PBXTextBookmark */ = D6F33A0012F8D89A0070303B /* PBXTextBookmark */;
+			D6F33A0112F8D89A0070303B /* PBXTextBookmark */ = D6F33A0112F8D89A0070303B /* PBXTextBookmark */;
+			D6F33A0212F8D89A0070303B /* PBXTextBookmark */ = D6F33A0212F8D89A0070303B /* PBXTextBookmark */;
+			D6F33A0312F8D89A0070303B /* PBXTextBookmark */ = D6F33A0312F8D89A0070303B /* PBXTextBookmark */;
+			D6F33A0412F8D89A0070303B /* PBXTextBookmark */ = D6F33A0412F8D89A0070303B /* PBXTextBookmark */;
 		};
 		sourceControlManager = D63900C612F71635002C9422 /* Source Control */;
 		userBuildSettings = {
@@ -471,7 +500,7 @@
 	};
 	32CA4F630368D1EE00C91783 /* Recipes_Prefix.pch */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {874, 552}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1235, 503}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 183}";
 		};
@@ -481,7 +510,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 931;
 		vrLoc = 142;
@@ -491,7 +520,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 1299;
 		vrLoc = 0;
@@ -576,8 +605,8 @@
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */;
 		name = "RecipesViewController.h: 10";
-		rLen = 157;
-		rLoc = 195;
+		rLen = 148;
+		rLoc = 28;
 		rType = 0;
 		vrLen = 261;
 		vrLoc = 0;
@@ -587,7 +616,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 1301;
 		vrLoc = 0;
@@ -597,7 +626,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 1282;
 		vrLoc = 0;
@@ -607,7 +636,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 1282;
 		vrLoc = 0;
@@ -617,7 +646,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 1243;
 		vrLoc = 0;
@@ -627,7 +656,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 968;
 		vrLoc = 0;
@@ -637,7 +666,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 1243;
 		vrLoc = 0;
@@ -647,7 +676,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 1282;
 		vrLoc = 0;
@@ -657,7 +686,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 1243;
 		vrLoc = 0;
@@ -667,7 +696,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 968;
 		vrLoc = 0;
@@ -677,7 +706,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */;
 		name = "RecipesViewController.h: 12";
 		rLen = 0;
-		rLoc = 296;
+		rLoc = 124;
 		rType = 0;
 		vrLen = 261;
 		vrLoc = 0;
@@ -687,7 +716,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 1243;
 		vrLoc = 0;
@@ -697,7 +726,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 1282;
 		vrLoc = 0;
@@ -707,7 +736,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 1243;
 		vrLoc = 0;
@@ -717,7 +746,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 968;
 		vrLoc = 0;
@@ -727,7 +756,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 1519;
 		vrLoc = 0;
@@ -737,7 +766,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 1541;
 		vrLoc = 0;
@@ -747,7 +776,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 1519;
 		vrLoc = 0;
@@ -757,7 +786,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 968;
 		vrLoc = 0;
@@ -767,7 +796,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 1519;
 		vrLoc = 0;
@@ -807,7 +836,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 968;
 		vrLoc = 0;
@@ -1063,7 +1092,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */;
 		name = "RecipesViewController.h: 12";
 		rLen = 0;
-		rLoc = 296;
+		rLoc = 124;
 		rType = 0;
 		vrLen = 261;
 		vrLoc = 0;
@@ -1073,7 +1102,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */;
 		name = "RecipesViewController.h: 12";
 		rLen = 0;
-		rLoc = 296;
+		rLoc = 124;
 		rType = 0;
 		vrLen = 261;
 		vrLoc = 0;
@@ -1083,7 +1112,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */;
 		name = "RecipesViewController.h: 12";
 		rLen = 0;
-		rLoc = 296;
+		rLoc = 124;
 		rType = 0;
 		vrLen = 261;
 		vrLoc = 0;
@@ -1093,7 +1122,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */;
 		name = "RecipesViewController.h: 12";
 		rLen = 0;
-		rLoc = 296;
+		rLoc = 124;
 		rType = 0;
 		vrLen = 261;
 		vrLoc = 0;
@@ -1103,7 +1132,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */;
 		name = "RecipesViewController.h: 12";
 		rLen = 0;
-		rLoc = 296;
+		rLoc = 124;
 		rType = 0;
 		vrLen = 261;
 		vrLoc = 0;
@@ -1113,7 +1142,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */;
 		name = "RecipesViewController.h: 12";
 		rLen = 0;
-		rLoc = 296;
+		rLoc = 124;
 		rType = 0;
 		vrLen = 261;
 		vrLoc = 0;
@@ -1140,7 +1169,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */;
 		name = "RecipesViewController.h: 12";
 		rLen = 0;
-		rLoc = 296;
+		rLoc = 124;
 		rType = 0;
 		vrLen = 261;
 		vrLoc = 0;
@@ -1170,7 +1199,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 1519;
 		vrLoc = 0;
@@ -1180,7 +1209,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 1519;
 		vrLoc = 0;
@@ -1190,7 +1219,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 1541;
 		vrLoc = 0;
@@ -1200,7 +1229,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 1519;
 		vrLoc = 0;
@@ -1220,7 +1249,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 968;
 		vrLoc = 0;
@@ -1230,7 +1259,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 1541;
 		vrLoc = 0;
@@ -1240,7 +1269,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 1541;
 		vrLoc = 0;
@@ -1250,7 +1279,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 1519;
 		vrLoc = 0;
@@ -1260,7 +1289,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 968;
 		vrLoc = 0;
@@ -1270,7 +1299,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 1541;
 		vrLoc = 0;
@@ -1310,7 +1339,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 968;
 		vrLoc = 0;
@@ -1362,7 +1391,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 21";
 		rLen = 29;
-		rLoc = 1248;
+		rLoc = 1408;
 		rType = 0;
 		vrLen = 1876;
 		vrLoc = 0;
@@ -1372,7 +1401,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 21";
 		rLen = 29;
-		rLoc = 1248;
+		rLoc = 1408;
 		rType = 0;
 		vrLen = 1868;
 		vrLoc = 0;
@@ -1382,7 +1411,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 21";
 		rLen = 29;
-		rLoc = 1248;
+		rLoc = 1408;
 		rType = 0;
 		vrLen = 1079;
 		vrLoc = 139;
@@ -1399,7 +1428,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 21";
 		rLen = 29;
-		rLoc = 1248;
+		rLoc = 1408;
 		rType = 0;
 		vrLen = 1876;
 		vrLoc = 0;
@@ -1429,7 +1458,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 21";
 		rLen = 29;
-		rLoc = 1248;
+		rLoc = 1408;
 		rType = 0;
 		vrLen = 1079;
 		vrLoc = 139;
@@ -1498,7 +1527,7 @@
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		rLen = 0;
-		rLoc = 42;
+		rLoc = 43;
 		rType = 1;
 	};
 	D6F3378512F89B290070303B /* PBXTextBookmark */ = {
@@ -1506,7 +1535,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1452;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1082;
 		vrLoc = 136;
@@ -1526,7 +1555,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1452;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 87;
@@ -1536,7 +1565,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 1227;
 		vrLoc = 0;
@@ -1546,7 +1575,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 24";
 		rLen = 0;
-		rLoc = 702;
+		rLoc = 604;
 		rType = 0;
 		vrLen = 1227;
 		vrLoc = 0;
@@ -1556,7 +1585,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 24";
 		rLen = 0;
-		rLoc = 702;
+		rLoc = 604;
 		rType = 0;
 		vrLen = 1227;
 		vrLoc = 0;
@@ -1566,7 +1595,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1452;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 87;
@@ -1576,7 +1605,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1452;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 87;
@@ -1586,7 +1615,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1452;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 87;
@@ -1596,7 +1625,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1452;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1082;
 		vrLoc = 136;
@@ -1606,7 +1635,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1452;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 87;
@@ -1616,7 +1645,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1452;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 87;
@@ -1626,7 +1655,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1452;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 87;
@@ -1636,7 +1665,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1452;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1082;
 		vrLoc = 136;
@@ -1646,7 +1675,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1452;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 87;
@@ -1656,7 +1685,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1452;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 87;
@@ -1666,7 +1695,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1452;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 87;
@@ -1676,7 +1705,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1452;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1082;
 		vrLoc = 136;
@@ -1686,7 +1715,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1452;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 87;
@@ -1696,7 +1725,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 24";
 		rLen = 0;
-		rLoc = 702;
+		rLoc = 604;
 		rType = 0;
 		vrLen = 978;
 		vrLoc = 590;
@@ -1706,7 +1735,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 24";
 		rLen = 0;
-		rLoc = 702;
+		rLoc = 604;
 		rType = 0;
 		vrLen = 1227;
 		vrLoc = 0;
@@ -1716,7 +1745,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 24";
 		rLen = 0;
-		rLoc = 702;
+		rLoc = 604;
 		rType = 0;
 		vrLen = 1073;
 		vrLoc = 0;
@@ -1726,7 +1755,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1452;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1082;
 		vrLoc = 136;
@@ -1736,7 +1765,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 24";
 		rLen = 0;
-		rLoc = 702;
+		rLoc = 604;
 		rType = 0;
 		vrLen = 968;
 		vrLoc = 0;
@@ -1746,7 +1775,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 24";
 		rLen = 0;
-		rLoc = 702;
+		rLoc = 604;
 		rType = 0;
 		vrLen = 1227;
 		vrLoc = 0;
@@ -1756,7 +1785,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1452;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 87;
@@ -1766,7 +1795,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1491;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 87;
@@ -1776,7 +1805,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1491;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 87;
@@ -1786,7 +1815,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1491;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 87;
@@ -1796,7 +1825,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1491;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 87;
@@ -1806,7 +1835,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 24";
 		rLen = 0;
-		rLoc = 702;
+		rLoc = 604;
 		rType = 0;
 		vrLen = 968;
 		vrLoc = 0;
@@ -1816,7 +1845,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 21";
 		rLen = 0;
-		rLoc = 1269;
+		rLoc = 1429;
 		rType = 0;
 		vrLen = 1128;
 		vrLoc = 87;
@@ -1826,7 +1855,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 21";
 		rLen = 0;
-		rLoc = 1269;
+		rLoc = 1429;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 87;
@@ -1836,7 +1865,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 24";
 		rLen = 0;
-		rLoc = 702;
+		rLoc = 604;
 		rType = 0;
 		vrLen = 1227;
 		vrLoc = 0;
@@ -1846,7 +1875,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 24";
 		rLen = 0;
-		rLoc = 702;
+		rLoc = 604;
 		rType = 0;
 		vrLen = 1251;
 		vrLoc = 31;
@@ -1856,7 +1885,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 24";
 		rLen = 0;
-		rLoc = 702;
+		rLoc = 604;
 		rType = 0;
 		vrLen = 1251;
 		vrLoc = 31;
@@ -1866,7 +1895,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 24";
 		rLen = 0;
-		rLoc = 702;
+		rLoc = 604;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 31;
@@ -1876,7 +1905,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 24";
 		rLen = 0;
-		rLoc = 702;
+		rLoc = 604;
 		rType = 0;
 		vrLen = 1125;
 		vrLoc = 31;
@@ -1885,7 +1914,7 @@
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		rLen = 0;
-		rLoc = 42;
+		rLoc = 43;
 		rType = 1;
 	};
 	D6F3385D12F8A5480070303B /* PBXTextBookmark */ = {
@@ -1893,7 +1922,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1531;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1135;
 		vrLoc = 0;
@@ -1903,7 +1932,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 24";
 		rLen = 0;
-		rLoc = 702;
+		rLoc = 604;
 		rType = 0;
 		vrLen = 1545;
 		vrLoc = 0;
@@ -1913,7 +1942,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */;
 		name = "RecipesViewController.h: 12";
 		rLen = 0;
-		rLoc = 296;
+		rLoc = 124;
 		rType = 0;
 		vrLen = 261;
 		vrLoc = 0;
@@ -1923,7 +1952,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1531;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1946;
 		vrLoc = 0;
@@ -1963,7 +1992,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1531;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1135;
 		vrLoc = 0;
@@ -1980,16 +2009,16 @@
 	};
 	D6F3386B12F8A5C90070303B /* IngredientsViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {553, 494}}";
-			sepNavSelRange = "{373, 0}";
-			sepNavVisRange = "{0, 380}";
+			sepNavIntBoundsRect = "{{0, 0}, {1235, 503}}";
+			sepNavSelRange = "{90, 8}";
+			sepNavVisRange = "{0, 211}";
 		};
 	};
 	D6F3386C12F8A5C90070303B /* IngredientsViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {969, 1079}}";
-			sepNavSelRange = "{149, 0}";
-			sepNavVisRange = "{0, 1017}";
+			sepNavIntBoundsRect = "{{0, 0}, {1235, 503}}";
+			sepNavSelRange = "{132, 41}";
+			sepNavVisRange = "{0, 795}";
 			sepNavWindowFrame = "{{15, 793}, {1309, 620}}";
 		};
 	};
@@ -2018,7 +2047,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 24";
 		rLen = 0;
-		rLoc = 702;
+		rLoc = 604;
 		rType = 0;
 		vrLen = 1545;
 		vrLoc = 0;
@@ -2028,7 +2057,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 24";
 		rLen = 0;
-		rLoc = 702;
+		rLoc = 604;
 		rType = 0;
 		vrLen = 1567;
 		vrLoc = 0;
@@ -2038,7 +2067,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 24";
 		rLen = 0;
-		rLoc = 702;
+		rLoc = 604;
 		rType = 0;
 		vrLen = 1545;
 		vrLoc = 0;
@@ -2058,7 +2087,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 24";
 		rLen = 0;
-		rLoc = 702;
+		rLoc = 604;
 		rType = 0;
 		vrLen = 998;
 		vrLoc = 0;
@@ -2068,7 +2097,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 24";
 		rLen = 0;
-		rLoc = 702;
+		rLoc = 604;
 		rType = 0;
 		vrLen = 1545;
 		vrLoc = 0;
@@ -2078,7 +2107,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 25";
 		rLen = 0;
-		rLoc = 752;
+		rLoc = 655;
 		rType = 0;
 		vrLen = 1546;
 		vrLoc = 0;
@@ -2088,7 +2117,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1531;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1946;
 		vrLoc = 0;
@@ -2098,7 +2127,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1531;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1954;
 		vrLoc = 0;
@@ -2108,7 +2137,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1531;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1946;
 		vrLoc = 0;
@@ -2118,7 +2147,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 24";
 		rLen = 0;
-		rLoc = 702;
+		rLoc = 604;
 		rType = 0;
 		vrLen = 999;
 		vrLoc = 0;
@@ -2128,7 +2157,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1531;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1135;
 		vrLoc = 0;
@@ -2138,7 +2167,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 1531;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1946;
 		vrLoc = 0;
@@ -2158,7 +2187,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 493;
+		rLoc = 393;
 		rType = 0;
 		vrLen = 1628;
 		vrLoc = 0;
@@ -2168,7 +2197,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */;
 		name = "RecipesViewController.h: 12";
 		rLen = 0;
-		rLoc = 296;
+		rLoc = 124;
 		rType = 0;
 		vrLen = 261;
 		vrLoc = 0;
@@ -2178,7 +2207,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */;
 		name = "RecipesViewController.h: 15";
 		rLen = 0;
-		rLoc = 332;
+		rLoc = 157;
 		rType = 0;
 		vrLen = 360;
 		vrLoc = 0;
@@ -2188,7 +2217,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */;
 		name = "RecipesViewController.h: 15";
 		rLen = 0;
-		rLoc = 332;
+		rLoc = 157;
 		rType = 0;
 		vrLen = 360;
 		vrLoc = 0;
@@ -2198,7 +2227,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 18";
 		rLen = 0;
-		rLoc = 493;
+		rLoc = 393;
 		rType = 0;
 		vrLen = 1628;
 		vrLoc = 0;
@@ -2208,7 +2237,7 @@
 		fRef = 1D3623240D0F684500981E51 /* RecipesAppDelegate.h */;
 		name = "RecipesAppDelegate.h: 24";
 		rLen = 45;
-		rLoc = 641;
+		rLoc = 477;
 		rType = 0;
 		vrLen = 694;
 		vrLoc = 0;
@@ -2218,7 +2247,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 18";
 		rLen = 0;
-		rLoc = 951;
+		rLoc = 1111;
 		rType = 0;
 		vrLen = 1914;
 		vrLoc = 0;
@@ -2238,7 +2267,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 18";
 		rLen = 0;
-		rLoc = 723;
+		rLoc = 661;
 		rType = 0;
 		vrLen = 1105;
 		vrLoc = 0;
@@ -2248,7 +2277,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 18";
 		rLen = 0;
-		rLoc = 723;
+		rLoc = 661;
 		rType = 0;
 		vrLen = 1105;
 		vrLoc = 0;
@@ -2259,7 +2288,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 25;
+		rLoc = 22;
 		rType = 1;
 	};
 	D6F3389A12F8AD750070303B /* PBXTextBookmark */ = {
@@ -2267,7 +2296,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 16";
 		rLen = 0;
-		rLoc = 534;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 1105;
 		vrLoc = 0;
@@ -2277,7 +2306,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 16";
 		rLen = 0;
-		rLoc = 534;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 1084;
 		vrLoc = 0;
@@ -2287,7 +2316,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 29";
 		rLen = 0;
-		rLoc = 1531;
+		rLoc = 1563;
 		rType = 0;
 		vrLen = 1056;
 		vrLoc = 0;
@@ -2297,7 +2326,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 16";
 		rLen = 0;
-		rLoc = 534;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 993;
 		vrLoc = 0;
@@ -2307,7 +2336,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 16";
 		rLen = 0;
-		rLoc = 534;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 1084;
 		vrLoc = 0;
@@ -2317,7 +2346,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 16";
 		rLen = 0;
-		rLoc = 534;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 1084;
 		vrLoc = 0;
@@ -2327,7 +2356,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 16";
 		rLen = 0;
-		rLoc = 534;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 1105;
 		vrLoc = 0;
@@ -2337,7 +2366,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 16";
 		rLen = 0;
-		rLoc = 534;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 1084;
 		vrLoc = 0;
@@ -2347,7 +2376,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 16";
 		rLen = 0;
-		rLoc = 534;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 993;
 		vrLoc = 0;
@@ -2357,7 +2386,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 16";
 		rLen = 0;
-		rLoc = 534;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 1084;
 		vrLoc = 0;
@@ -2367,7 +2396,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 16";
 		rLen = 0;
-		rLoc = 534;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 1105;
 		vrLoc = 0;
@@ -2377,7 +2406,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 16";
 		rLen = 0;
-		rLoc = 534;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 1084;
 		vrLoc = 0;
@@ -2387,7 +2416,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 16";
 		rLen = 0;
-		rLoc = 534;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 993;
 		vrLoc = 0;
@@ -2397,7 +2426,7 @@
 		fRef = D6F3386B12F8A5C90070303B /* IngredientsViewController.h */;
 		name = "IngredientsViewController.h: 19";
 		rLen = 0;
-		rLoc = 380;
+		rLoc = 211;
 		rType = 0;
 		vrLen = 317;
 		vrLoc = 0;
@@ -2407,7 +2436,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 24";
 		rLen = 0;
-		rLoc = 706;
+		rLoc = 644;
 		rType = 0;
 		vrLen = 1153;
 		vrLoc = 0;
@@ -2418,7 +2447,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 29;
+		rLoc = 32;
 		rType = 1;
 	};
 	D6F338BF12F8B6080070303B /* PBXTextBookmark */ = {
@@ -2426,7 +2455,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 33";
 		rLen = 0;
-		rLoc = 951;
+		rLoc = 1111;
 		rType = 0;
 		vrLen = 1243;
 		vrLoc = 0;
@@ -2436,7 +2465,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */;
 		name = "RecipesViewController.h: 15";
 		rLen = 0;
-		rLoc = 332;
+		rLoc = 157;
 		rType = 0;
 		vrLen = 360;
 		vrLoc = 0;
@@ -2446,7 +2475,7 @@
 		fRef = D6F3386B12F8A5C90070303B /* IngredientsViewController.h */;
 		name = "IngredientsViewController.h: 19";
 		rLen = 0;
-		rLoc = 380;
+		rLoc = 211;
 		rType = 0;
 		vrLen = 317;
 		vrLoc = 0;
@@ -2456,7 +2485,7 @@
 		fRef = 1D3623240D0F684500981E51 /* RecipesAppDelegate.h */;
 		name = "RecipesAppDelegate.h: 24";
 		rLen = 45;
-		rLoc = 641;
+		rLoc = 477;
 		rType = 0;
 		vrLen = 694;
 		vrLoc = 0;
@@ -2466,7 +2495,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 20";
 		rLen = 0;
-		rLoc = 526;
+		rLoc = 464;
 		rType = 0;
 		vrLen = 1135;
 		vrLoc = 54;
@@ -2476,7 +2505,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 33";
 		rLen = 0;
-		rLoc = 999;
+		rLoc = 1159;
 		rType = 0;
 		vrLen = 1591;
 		vrLoc = 43;
@@ -2487,7 +2516,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 37;
+		rLoc = 35;
 		rType = 1;
 	};
 	D6F338D712F8BB590070303B /* PBXTextBookmark */ = {
@@ -2495,7 +2524,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 38";
 		rLen = 0;
-		rLoc = 1076;
+		rLoc = 980;
 		rType = 0;
 		vrLen = 1372;
 		vrLoc = 139;
@@ -2505,7 +2534,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */;
 		name = "RecipesViewController.h: 15";
 		rLen = 0;
-		rLoc = 332;
+		rLoc = 157;
 		rType = 0;
 		vrLen = 360;
 		vrLoc = 0;
@@ -2515,7 +2544,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 22";
 		rLen = 0;
-		rLoc = 583;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 1180;
 		vrLoc = 0;
@@ -2525,7 +2554,7 @@
 		fRef = D6F3386B12F8A5C90070303B /* IngredientsViewController.h */;
 		name = "IngredientsViewController.h: 19";
 		rLen = 0;
-		rLoc = 380;
+		rLoc = 211;
 		rType = 0;
 		vrLen = 317;
 		vrLoc = 0;
@@ -2535,7 +2564,7 @@
 		fRef = 1D3623240D0F684500981E51 /* RecipesAppDelegate.h */;
 		name = "RecipesAppDelegate.h: 18";
 		rLen = 64;
-		rLoc = 435;
+		rLoc = 271;
 		rType = 0;
 		vrLen = 694;
 		vrLoc = 0;
@@ -2545,7 +2574,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 38";
 		rLen = 0;
-		rLoc = 1076;
+		rLoc = 980;
 		rType = 0;
 		vrLen = 1400;
 		vrLoc = 43;
@@ -2555,7 +2584,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 33";
 		rLen = 21;
-		rLoc = 1003;
+		rLoc = 1163;
 		rType = 0;
 		vrLen = 1603;
 		vrLoc = 241;
@@ -2585,7 +2614,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 22";
 		rLen = 0;
-		rLoc = 534;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 1019;
 		vrLoc = 0;
@@ -2595,7 +2624,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 29";
 		rLen = 0;
-		rLoc = 949;
+		rLoc = 1109;
 		rType = 0;
 		vrLen = 1181;
 		vrLoc = 0;
@@ -2605,7 +2634,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 22";
 		rLen = 0;
-		rLoc = 583;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 1157;
 		vrLoc = 0;
@@ -2615,7 +2644,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 29";
 		rLen = 0;
-		rLoc = 949;
+		rLoc = 1109;
 		rType = 0;
 		vrLen = 1258;
 		vrLoc = 0;
@@ -2625,7 +2654,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 29";
 		rLen = 0;
-		rLoc = 949;
+		rLoc = 1109;
 		rType = 0;
 		vrLen = 1258;
 		vrLoc = 0;
@@ -2635,7 +2664,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 29";
 		rLen = 0;
-		rLoc = 949;
+		rLoc = 1109;
 		rType = 0;
 		vrLen = 1374;
 		vrLoc = 0;
@@ -2645,7 +2674,7 @@
 		fRef = D6F3386B12F8A5C90070303B /* IngredientsViewController.h */;
 		name = "IngredientsViewController.h: 19";
 		rLen = 0;
-		rLoc = 380;
+		rLoc = 211;
 		rType = 0;
 		vrLen = 317;
 		vrLoc = 0;
@@ -2655,7 +2684,7 @@
 		fRef = D6F3386B12F8A5C90070303B /* IngredientsViewController.h */;
 		name = "IngredientsViewController.h: 14";
 		rLen = 0;
-		rLoc = 292;
+		rLoc = 122;
 		rType = 0;
 		vrLen = 354;
 		vrLoc = 0;
@@ -2665,7 +2694,7 @@
 		fRef = D6F3386B12F8A5C90070303B /* IngredientsViewController.h */;
 		name = "IngredientsViewController.h: 19";
 		rLen = 0;
-		rLoc = 374;
+		rLoc = 205;
 		rType = 0;
 		vrLen = 378;
 		vrLoc = 0;
@@ -2675,7 +2704,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 36";
 		rLen = 0;
-		rLoc = 1123;
+		rLoc = 1283;
 		rType = 0;
 		vrLen = 1566;
 		vrLoc = 171;
@@ -2686,7 +2715,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 28;
+		rLoc = 25;
 		rType = 1;
 	};
 	D6F3390212F8C7040070303B /* PBXTextBookmark */ = {
@@ -2694,7 +2723,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 16";
 		rLen = 0;
-		rLoc = 260;
+		rLoc = 199;
 		rType = 0;
 		vrLen = 1167;
 		vrLoc = 0;
@@ -2704,7 +2733,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 16";
 		rLen = 0;
-		rLoc = 260;
+		rLoc = 199;
 		rType = 0;
 		vrLen = 1013;
 		vrLoc = 0;
@@ -2714,7 +2743,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 29";
 		rLen = 0;
-		rLoc = 949;
+		rLoc = 1109;
 		rType = 0;
 		vrLen = 1181;
 		vrLoc = 0;
@@ -2724,7 +2753,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 16";
 		rLen = 0;
-		rLoc = 260;
+		rLoc = 199;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -2734,7 +2763,7 @@
 		fRef = D6F3386B12F8A5C90070303B /* IngredientsViewController.h */;
 		name = "IngredientsViewController.h: 19";
 		rLen = 0;
-		rLoc = 374;
+		rLoc = 205;
 		rType = 0;
 		vrLen = 378;
 		vrLoc = 0;
@@ -2744,7 +2773,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 16";
 		rLen = 0;
-		rLoc = 260;
+		rLoc = 199;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 51;
@@ -2754,7 +2783,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 38";
 		rLen = 0;
-		rLoc = 1076;
+		rLoc = 980;
 		rType = 0;
 		vrLen = 1185;
 		vrLoc = 0;
@@ -2764,7 +2793,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 36";
 		rLen = 0;
-		rLoc = 1123;
+		rLoc = 1283;
 		rType = 0;
 		vrLen = 1547;
 		vrLoc = 171;
@@ -2774,7 +2803,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 36";
 		rLen = 0;
-		rLoc = 1123;
+		rLoc = 1283;
 		rType = 0;
 		vrLen = 1564;
 		vrLoc = 171;
@@ -2784,7 +2813,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 36";
 		rLen = 0;
-		rLoc = 1123;
+		rLoc = 1283;
 		rType = 0;
 		vrLen = 1547;
 		vrLoc = 171;
@@ -2794,7 +2823,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 16";
 		rLen = 0;
-		rLoc = 260;
+		rLoc = 199;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -2804,7 +2833,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 36";
 		rLen = 0;
-		rLoc = 1123;
+		rLoc = 1283;
 		rType = 0;
 		vrLen = 1181;
 		vrLoc = 0;
@@ -2814,7 +2843,7 @@
 		fRef = D6F3386B12F8A5C90070303B /* IngredientsViewController.h */;
 		name = "IngredientsViewController.h: 12";
 		rLen = 9;
-		rLoc = 194;
+		rLoc = 23;
 		rType = 0;
 		vrLen = 378;
 		vrLoc = 0;
@@ -2824,7 +2853,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 38";
 		rLen = 0;
-		rLoc = 1076;
+		rLoc = 980;
 		rType = 0;
 		vrLen = 1188;
 		vrLoc = 0;
@@ -2834,7 +2863,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */;
 		name = "RecipesViewController.h: 15";
 		rLen = 0;
-		rLoc = 332;
+		rLoc = 157;
 		rType = 0;
 		vrLen = 360;
 		vrLoc = 0;
@@ -2844,7 +2873,7 @@
 		fRef = 1D3623240D0F684500981E51 /* RecipesAppDelegate.h */;
 		name = "RecipesAppDelegate.h: 18";
 		rLen = 64;
-		rLoc = 435;
+		rLoc = 271;
 		rType = 0;
 		vrLen = 694;
 		vrLoc = 0;
@@ -2854,7 +2883,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 12";
 		rLen = 26;
-		rLoc = 205;
+		rLoc = 54;
 		rType = 0;
 		vrLen = 1178;
 		vrLoc = 39;
@@ -2864,7 +2893,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 36";
 		rLen = 0;
-		rLoc = 1123;
+		rLoc = 1283;
 		rType = 0;
 		vrLen = 1304;
 		vrLoc = 0;
@@ -2874,7 +2903,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 36";
 		rLen = 0;
-		rLoc = 1123;
+		rLoc = 1283;
 		rType = 0;
 		vrLen = 1580;
 		vrLoc = 139;
@@ -2884,7 +2913,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 36";
 		rLen = 0;
-		rLoc = 1123;
+		rLoc = 1283;
 		rType = 0;
 		vrLen = 1542;
 		vrLoc = 139;
@@ -2894,7 +2923,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 36";
 		rLen = 0;
-		rLoc = 1123;
+		rLoc = 1283;
 		rType = 0;
 		vrLen = 1542;
 		vrLoc = 139;
@@ -2904,7 +2933,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 36";
 		rLen = 0;
-		rLoc = 1123;
+		rLoc = 1283;
 		rType = 0;
 		vrLen = 1341;
 		vrLoc = 139;
@@ -2914,7 +2943,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 32";
 		rLen = 0;
-		rLoc = 951;
+		rLoc = 1111;
 		rType = 0;
 		vrLen = 1402;
 		vrLoc = 279;
@@ -2924,7 +2953,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 32";
 		rLen = 0;
-		rLoc = 951;
+		rLoc = 1111;
 		rType = 0;
 		vrLen = 1530;
 		vrLoc = 205;
@@ -2934,7 +2963,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 32";
 		rLen = 0;
-		rLoc = 951;
+		rLoc = 1111;
 		rType = 0;
 		vrLen = 1533;
 		vrLoc = 205;
@@ -2944,7 +2973,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 32";
 		rLen = 0;
-		rLoc = 951;
+		rLoc = 1111;
 		rType = 0;
 		vrLen = 1530;
 		vrLoc = 205;
@@ -2954,7 +2983,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 33";
 		rLen = 0;
-		rLoc = 951;
+		rLoc = 1111;
 		rType = 0;
 		vrLen = 1500;
 		vrLoc = 205;
@@ -2964,7 +2993,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 33";
 		rLen = 0;
-		rLoc = 951;
+		rLoc = 1111;
 		rType = 0;
 		vrLen = 1386;
 		vrLoc = 205;
@@ -2974,7 +3003,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 912;
+		rLoc = 1072;
 		rType = 0;
 		vrLen = 1313;
 		vrLoc = 954;
@@ -2984,7 +3013,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 20";
 		rLen = 0;
-		rLoc = 383;
+		rLoc = 543;
 		rType = 0;
 		vrLen = 1385;
 		vrLoc = 205;
@@ -2994,7 +3023,7 @@
 		fRef = 1D3623240D0F684500981E51 /* RecipesAppDelegate.h */;
 		name = "RecipesAppDelegate.h: 18";
 		rLen = 64;
-		rLoc = 435;
+		rLoc = 271;
 		rType = 0;
 		vrLen = 694;
 		vrLoc = 0;
@@ -3004,7 +3033,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 29";
 		rLen = 0;
-		rLoc = 948;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 1304;
 		vrLoc = 0;
@@ -3014,7 +3043,7 @@
 		fRef = D6F3386B12F8A5C90070303B /* IngredientsViewController.h */;
 		name = "IngredientsViewController.h: 19";
 		rLen = 0;
-		rLoc = 374;
+		rLoc = 205;
 		rType = 0;
 		vrLen = 355;
 		vrLoc = 0;
@@ -3024,7 +3053,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 17";
 		rLen = 0;
-		rLoc = 267;
+		rLoc = 207;
 		rType = 0;
 		vrLen = 1181;
 		vrLoc = 0;
@@ -3034,7 +3063,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 19";
 		rLen = 0;
-		rLoc = 267;
+		rLoc = 207;
 		rType = 0;
 		vrLen = 1187;
 		vrLoc = 0;
@@ -3044,7 +3073,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 19";
 		rLen = 0;
-		rLoc = 267;
+		rLoc = 207;
 		rType = 0;
 		vrLen = 1101;
 		vrLoc = 0;
@@ -3054,7 +3083,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 19";
 		rLen = 0;
-		rLoc = 267;
+		rLoc = 207;
 		rType = 0;
 		vrLen = 936;
 		vrLoc = 0;
@@ -3064,7 +3093,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 35";
 		rLen = 0;
-		rLoc = 999;
+		rLoc = 1159;
 		rType = 0;
 		vrLen = 1295;
 		vrLoc = 205;
@@ -3074,7 +3103,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 35";
 		rLen = 0;
-		rLoc = 999;
+		rLoc = 1159;
 		rType = 0;
 		vrLen = 1295;
 		vrLoc = 205;
@@ -3084,7 +3113,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 19";
 		rLen = 0;
-		rLoc = 267;
+		rLoc = 207;
 		rType = 0;
 		vrLen = 1187;
 		vrLoc = 0;
@@ -3094,7 +3123,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 21";
 		rLen = 1;
-		rLoc = 533;
+		rLoc = 693;
 		rType = 0;
 		vrLen = 1582;
 		vrLoc = 136;
@@ -3104,7 +3133,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 21";
 		rLen = 1;
-		rLoc = 533;
+		rLoc = 693;
 		rType = 0;
 		vrLen = 1582;
 		vrLoc = 136;
@@ -3114,7 +3143,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 21";
 		rLen = 1;
-		rLoc = 533;
+		rLoc = 693;
 		rType = 0;
 		vrLen = 1496;
 		vrLoc = 136;
@@ -3124,7 +3153,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 21";
 		rLen = 1;
-		rLoc = 533;
+		rLoc = 693;
 		rType = 0;
 		vrLen = 1295;
 		vrLoc = 205;
@@ -3162,7 +3191,7 @@
 		fRef = 1D3623240D0F684500981E51 /* RecipesAppDelegate.h */;
 		name = "RecipesAppDelegate.h: 18";
 		rLen = 64;
-		rLoc = 435;
+		rLoc = 271;
 		rType = 0;
 		vrLen = 694;
 		vrLoc = 0;
@@ -3172,7 +3201,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 16";
 		rLen = 4;
-		rLoc = 267;
+		rLoc = 207;
 		rType = 0;
 		vrLen = 1101;
 		vrLoc = 0;
@@ -3182,7 +3211,7 @@
 		fRef = D6F3386B12F8A5C90070303B /* IngredientsViewController.h */;
 		name = "IngredientsViewController.h: 19";
 		rLen = 0;
-		rLoc = 374;
+		rLoc = 205;
 		rType = 0;
 		vrLen = 355;
 		vrLoc = 0;
@@ -3192,7 +3221,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 38";
 		rLen = 0;
-		rLoc = 1076;
+		rLoc = 980;
 		rType = 0;
 		vrLen = 1157;
 		vrLoc = 31;
@@ -3202,7 +3231,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */;
 		name = "RecipesViewController.h: 15";
 		rLen = 0;
-		rLoc = 332;
+		rLoc = 157;
 		rType = 0;
 		vrLen = 360;
 		vrLoc = 0;
@@ -3212,7 +3241,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 36";
 		rLen = 15;
-		rLoc = 1106;
+		rLoc = 1266;
 		rType = 0;
 		vrLen = 1479;
 		vrLoc = 87;
@@ -3222,7 +3251,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 36";
 		rLen = 0;
-		rLoc = 1110;
+		rLoc = 1270;
 		rType = 0;
 		vrLen = 1544;
 		vrLoc = 87;
@@ -3232,7 +3261,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 36";
 		rLen = 0;
-		rLoc = 1110;
+		rLoc = 1270;
 		rType = 0;
 		vrLen = 1478;
 		vrLoc = 87;
@@ -3242,7 +3271,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 36";
 		rLen = 0;
-		rLoc = 1110;
+		rLoc = 1270;
 		rType = 0;
 		vrLen = 1167;
 		vrLoc = 136;
@@ -3279,7 +3308,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 25";
 		rLen = 0;
-		rLoc = 800;
+		rLoc = 960;
 		rType = 0;
 		vrLen = 1479;
 		vrLoc = 87;
@@ -3289,7 +3318,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 16";
 		rLen = 4;
-		rLoc = 267;
+		rLoc = 207;
 		rType = 0;
 		vrLen = 1101;
 		vrLoc = 0;
@@ -3299,7 +3328,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 18";
 		rLen = 0;
-		rLoc = 314;
+		rLoc = 254;
 		rType = 0;
 		vrLen = 1179;
 		vrLoc = 0;
@@ -3309,7 +3338,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 18";
 		rLen = 0;
-		rLoc = 314;
+		rLoc = 254;
 		rType = 0;
 		vrLen = 1092;
 		vrLoc = 0;
@@ -3319,7 +3348,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 36";
 		rLen = 0;
-		rLoc = 1110;
+		rLoc = 1270;
 		rType = 0;
 		vrLen = 1216;
 		vrLoc = 87;
@@ -3329,7 +3358,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 18";
 		rLen = 0;
-		rLoc = 314;
+		rLoc = 254;
 		rType = 0;
 		vrLen = 844;
 		vrLoc = 0;
@@ -3340,7 +3369,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 32;
+		rLoc = 35;
 		rType = 1;
 	};
 	D6F3397612F8CDFE0070303B /* PBXTextBookmark */ = {
@@ -3348,7 +3377,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 18";
 		rLen = 0;
-		rLoc = 314;
+		rLoc = 254;
 		rType = 0;
 		vrLen = 1092;
 		vrLoc = 0;
@@ -3358,7 +3387,7 @@
 		fRef = D6F3386B12F8A5C90070303B /* IngredientsViewController.h */;
 		name = "IngredientsViewController.h: 19";
 		rLen = 0;
-		rLoc = 374;
+		rLoc = 205;
 		rType = 0;
 		vrLen = 355;
 		vrLoc = 0;
@@ -3368,7 +3397,7 @@
 		fRef = D6F3386B12F8A5C90070303B /* IngredientsViewController.h */;
 		name = "IngredientsViewController.h: 19";
 		rLen = 0;
-		rLoc = 373;
+		rLoc = 204;
 		rType = 0;
 		vrLen = 380;
 		vrLoc = 0;
@@ -3378,7 +3407,7 @@
 		fRef = D6F3386B12F8A5C90070303B /* IngredientsViewController.h */;
 		name = "IngredientsViewController.h: 19";
 		rLen = 0;
-		rLoc = 373;
+		rLoc = 204;
 		rType = 0;
 		vrLen = 380;
 		vrLoc = 0;
@@ -3388,7 +3417,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 36";
 		rLen = 15;
-		rLoc = 1106;
+		rLoc = 1266;
 		rType = 0;
 		vrLen = 1460;
 		vrLoc = 40;
@@ -3398,7 +3427,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 18";
 		rLen = 0;
-		rLoc = 314;
+		rLoc = 254;
 		rType = 0;
 		vrLen = 844;
 		vrLoc = 0;
@@ -3408,7 +3437,7 @@
 		fRef = D6F3386B12F8A5C90070303B /* IngredientsViewController.h */;
 		name = "IngredientsViewController.h: 19";
 		rLen = 0;
-		rLoc = 373;
+		rLoc = 204;
 		rType = 0;
 		vrLen = 380;
 		vrLoc = 0;
@@ -3418,7 +3447,7 @@
 		fRef = D6F3386B12F8A5C90070303B /* IngredientsViewController.h */;
 		name = "IngredientsViewController.h: 19";
 		rLen = 0;
-		rLoc = 373;
+		rLoc = 204;
 		rType = 0;
 		vrLen = 380;
 		vrLoc = 0;
@@ -3428,7 +3457,7 @@
 		fRef = 1D3623240D0F684500981E51 /* RecipesAppDelegate.h */;
 		name = "RecipesAppDelegate.h: 24";
 		rLen = 10;
-		rLoc = 675;
+		rLoc = 511;
 		rType = 0;
 		vrLen = 694;
 		vrLoc = 0;
@@ -3438,7 +3467,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 18";
 		rLen = 19;
-		rLoc = 304;
+		rLoc = 465;
 		rType = 0;
 		vrLen = 1301;
 		vrLoc = 0;
@@ -3448,7 +3477,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 18";
 		rLen = 19;
-		rLoc = 304;
+		rLoc = 465;
 		rType = 0;
 		vrLen = 1304;
 		vrLoc = 0;
@@ -3458,7 +3487,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 18";
 		rLen = 19;
-		rLoc = 304;
+		rLoc = 465;
 		rType = 0;
 		vrLen = 1301;
 		vrLoc = 0;
@@ -3468,7 +3497,7 @@
 		fRef = D6F3386B12F8A5C90070303B /* IngredientsViewController.h */;
 		name = "IngredientsViewController.h: 19";
 		rLen = 0;
-		rLoc = 373;
+		rLoc = 204;
 		rType = 0;
 		vrLen = 380;
 		vrLoc = 0;
@@ -3478,7 +3507,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 35";
 		rLen = 0;
-		rLoc = 1078;
+		rLoc = 1238;
 		rType = 0;
 		vrLen = 1259;
 		vrLoc = 480;
@@ -3487,7 +3516,7 @@
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		rLen = 0;
-		rLoc = 37;
+		rLoc = 35;
 		rType = 1;
 	};
 	D6F3398F12F8CF070070303B /* PBXTextBookmark */ = {
@@ -3495,7 +3524,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 38";
 		rLen = 0;
-		rLoc = 1167;
+		rLoc = 1071;
 		rType = 0;
 		vrLen = 1051;
 		vrLoc = 142;
@@ -3505,7 +3534,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 18";
 		rLen = 19;
-		rLoc = 304;
+		rLoc = 465;
 		rType = 0;
 		vrLen = 1304;
 		vrLoc = 0;
@@ -3515,7 +3544,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 11";
 		rLen = 0;
-		rLoc = 208;
+		rLoc = 65;
 		rType = 0;
 		vrLen = 1399;
 		vrLoc = 31;
@@ -3525,7 +3554,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 11";
 		rLen = 0;
-		rLoc = 208;
+		rLoc = 65;
 		rType = 0;
 		vrLen = 1245;
 		vrLoc = 31;
@@ -3535,7 +3564,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 11";
 		rLen = 0;
-		rLoc = 208;
+		rLoc = 65;
 		rType = 0;
 		vrLen = 1245;
 		vrLoc = 31;
@@ -3544,7 +3573,7 @@
 		isa = PBXTextBookmark;
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		rLen = 1;
-		rLoc = 22;
+		rLoc = 19;
 		rType = 1;
 	};
 	D6F339A512F8CFC80070303B /* PBXTextBookmark */ = {
@@ -3552,7 +3581,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 11";
 		rLen = 0;
-		rLoc = 208;
+		rLoc = 65;
 		rType = 0;
 		vrLen = 1245;
 		vrLoc = 31;
@@ -3562,7 +3591,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 11";
 		rLen = 0;
-		rLoc = 208;
+		rLoc = 65;
 		rType = 0;
 		vrLen = 1308;
 		vrLoc = 177;
@@ -3572,7 +3601,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 35";
 		rLen = 0;
-		rLoc = 999;
+		rLoc = 1159;
 		rType = 0;
 		vrLen = 1332;
 		vrLoc = 87;
@@ -3581,7 +3610,7 @@
 		isa = PBXTextBookmark;
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		rLen = 0;
-		rLoc = 32;
+		rLoc = 29;
 		rType = 1;
 	};
 	D6F339AA12F8D01F0070303B /* PBXTextBookmark */ = {
@@ -3589,7 +3618,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 32";
 		rLen = 0;
-		rLoc = 811;
+		rLoc = 750;
 		rType = 0;
 		vrLen = 1096;
 		vrLoc = 0;
@@ -3599,7 +3628,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
 		name = "RecipesViewController.m: 11";
 		rLen = 0;
-		rLoc = 208;
+		rLoc = 65;
 		rType = 0;
 		vrLen = 1245;
 		vrLoc = 31;
@@ -3609,7 +3638,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 21";
 		rLen = 87;
-		rLoc = 416;
+		rLoc = 354;
 		rType = 0;
 		vrLen = 1096;
 		vrLoc = 0;
@@ -3619,7 +3648,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 32";
 		rLen = 0;
-		rLoc = 809;
+		rLoc = 748;
 		rType = 0;
 		vrLen = 1003;
 		vrLoc = 0;
@@ -3629,7 +3658,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 32";
 		rLen = 0;
-		rLoc = 809;
+		rLoc = 748;
 		rType = 0;
 		vrLen = 1157;
 		vrLoc = 0;
@@ -3639,7 +3668,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 18";
 		rLen = 19;
-		rLoc = 304;
+		rLoc = 465;
 		rType = 0;
 		vrLen = 1304;
 		vrLoc = 0;
@@ -3649,7 +3678,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 26";
 		rLen = 1;
-		rLoc = 902;
+		rLoc = 1062;
 		rType = 0;
 		vrLen = 1293;
 		vrLoc = 0;
@@ -3659,7 +3688,7 @@
 		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
 		name = "RecipesAppDelegate.m: 13";
 		rLen = 0;
-		rLoc = 266;
+		rLoc = 305;
 		rType = 0;
 		vrLen = 1465;
 		vrLoc = 0;
@@ -3670,7 +3699,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 27;
+		rLoc = 24;
 		rType = 1;
 	};
 	D6F339C512F8D24A0070303B /* PBXTextBookmark */ = {
@@ -3678,7 +3707,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 25";
 		rLen = 0;
-		rLoc = 625;
+		rLoc = 563;
 		rType = 0;
 		vrLen = 1221;
 		vrLoc = 0;
@@ -3688,7 +3717,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 25";
 		rLen = 0;
-		rLoc = 625;
+		rLoc = 563;
 		rType = 0;
 		vrLen = 1171;
 		vrLoc = 0;
@@ -3698,7 +3727,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 25";
 		rLen = 0;
-		rLoc = 625;
+		rLoc = 563;
 		rType = 0;
 		vrLen = 1014;
 		vrLoc = 0;
@@ -3708,7 +3737,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 25";
 		rLen = 0;
-		rLoc = 625;
+		rLoc = 563;
 		rType = 0;
 		vrLen = 1014;
 		vrLoc = 0;
@@ -3718,7 +3747,7 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 25";
 		rLen = 0;
-		rLoc = 625;
+		rLoc = 563;
 		rType = 0;
 		vrLen = 1017;
 		vrLoc = 0;
@@ -3728,9 +3757,299 @@
 		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
 		name = "IngredientsViewController.m: 8";
 		rLen = 0;
-		rLoc = 149;
+		rLoc = 0;
 		rType = 0;
 		vrLen = 1017;
 		vrLoc = 0;
+	};
+	D6F339D012F8D3AB0070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* RecipesAppDelegate.h */;
+		name = "RecipesAppDelegate.h: 20";
+		rLen = 0;
+		rLoc = 530;
+		rType = 0;
+		vrLen = 554;
+		vrLoc = 0;
+	};
+	D6F339D112F8D3AB0070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
+		name = "IngredientsViewController.m: 28";
+		rLen = 0;
+		rLoc = 789;
+		rType = 0;
+		vrLen = 1047;
+		vrLoc = 0;
+	};
+	D6F339D212F8D3AB0070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D6F3386B12F8A5C90070303B /* IngredientsViewController.h */;
+		name = "IngredientsViewController.h: 19";
+		rLen = 0;
+		rLoc = 204;
+		rType = 0;
+		vrLen = 380;
+		vrLoc = 0;
+	};
+	D6F339D312F8D3AB0070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
+		name = "RecipesAppDelegate.m: 13";
+		rLen = 0;
+		rLoc = 305;
+		rType = 0;
+		vrLen = 1432;
+		vrLoc = 210;
+	};
+	D6F339D412F8D3AB0070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */;
+		name = "RecipesViewController.h: 14";
+		rLen = 0;
+		rLoc = 184;
+		rType = 0;
+		vrLen = 218;
+		vrLoc = 0;
+	};
+	D6F339D512F8D3AB0070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
+		name = "RecipesViewController.m: 33";
+		rLen = 0;
+		rLoc = 1075;
+		rType = 0;
+		vrLen = 1297;
+		vrLoc = 0;
+	};
+	D6F339D612F8D3AB0070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
+		name = "RecipesViewController.m: 30";
+		rLen = 0;
+		rLoc = 1064;
+		rType = 0;
+		vrLen = 1056;
+		vrLoc = 322;
+	};
+	D6F339D712F8D3AC0070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
+		name = "RecipesViewController.m: 30";
+		rLen = 0;
+		rLoc = 1064;
+		rType = 0;
+		vrLen = 1056;
+		vrLoc = 322;
+	};
+	D6F339D912F8D3B20070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
+		name = "IngredientsViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1011;
+		vrLoc = 0;
+	};
+	D6F339DA12F8D3B20070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
+		name = "RecipesViewController.m: 30";
+		rLen = 0;
+		rLoc = 1064;
+		rType = 0;
+		vrLen = 1050;
+		vrLoc = 322;
+	};
+	D6F339DD12F8D3BF0070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
+		name = "RecipesViewController.m: 32";
+		rLen = 0;
+		rLoc = 1075;
+		rType = 0;
+		vrLen = 1077;
+		vrLoc = 0;
+	};
+	D6F339DE12F8D3BF0070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
+		name = "RecipesViewController.m: 32";
+		rLen = 0;
+		rLoc = 1075;
+		rType = 0;
+		vrLen = 1077;
+		vrLoc = 0;
+	};
+	D6F339E012F8D3C80070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
+		name = "RecipesViewController.m: 32";
+		rLen = 0;
+		rLoc = 1075;
+		rType = 0;
+		vrLen = 1077;
+		vrLoc = 0;
+	};
+	D6F339EB12F8D7040070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Recipes_Prefix.pch */;
+		name = "Recipes_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 183;
+		vrLoc = 0;
+	};
+	D6F339EC12F8D7040070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D6F3386B12F8A5C90070303B /* IngredientsViewController.h */;
+		name = "IngredientsViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 211;
+		vrLoc = 0;
+	};
+	D6F339ED12F8D7040070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
+		name = "IngredientsViewController.m: 2";
+		rLen = 0;
+		rLoc = 38;
+		rType = 0;
+		vrLen = 750;
+		vrLoc = 0;
+	};
+	D6F339EE12F8D7040070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* RecipesAppDelegate.h */;
+		name = "RecipesAppDelegate.h: 5";
+		rLen = 8;
+		rLoc = 98;
+		rType = 0;
+		vrLen = 530;
+		vrLoc = 0;
+	};
+	D6F339EF12F8D7040070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */;
+		name = "RecipesViewController.h: 4";
+		rLen = 16;
+		rLoc = 64;
+		rType = 0;
+		vrLen = 184;
+		vrLoc = 0;
+	};
+	D6F339F012F8D7040070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
+		name = "RecipesViewController.m: 9";
+		rLen = 0;
+		rLoc = 146;
+		rType = 0;
+		vrLen = 1082;
+		vrLoc = 0;
+	};
+	D6F339F112F8D7040070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
+		name = "RecipesAppDelegate.m: 13";
+		rLen = 0;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 1355;
+		vrLoc = 0;
+	};
+	D6F339F212F8D7040070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
+		name = "RecipesAppDelegate.m: 40";
+		rLen = 0;
+		rLoc = 1563;
+		rType = 0;
+		vrLen = 1355;
+		vrLoc = 192;
+	};
+	D6F339FD12F8D89A0070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */;
+		name = "RecipesViewController.m: 9";
+		rLen = 0;
+		rLoc = 146;
+		rType = 0;
+		vrLen = 1048;
+		vrLoc = 34;
+	};
+	D6F339FE12F8D89A0070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */;
+		name = "IngredientsViewController.m: 9";
+		rLen = 41;
+		rLoc = 132;
+		rType = 0;
+		vrLen = 795;
+		vrLoc = 0;
+	};
+	D6F339FF12F8D89A0070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D6F3386B12F8A5C90070303B /* IngredientsViewController.h */;
+		name = "IngredientsViewController.h: 5";
+		rLen = 8;
+		rLoc = 90;
+		rType = 0;
+		vrLen = 211;
+		vrLoc = 0;
+	};
+	D6F33A0012F8D89A0070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */;
+		name = "RecipesViewController.h: 6";
+		rLen = 11;
+		rLoc = 162;
+		rType = 0;
+		vrLen = 184;
+		vrLoc = 0;
+	};
+	D6F33A0112F8D89A0070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* RecipesAppDelegate.h */;
+		name = "RecipesAppDelegate.h: 10";
+		rLen = 21;
+		rLoc = 311;
+		rType = 0;
+		vrLen = 530;
+		vrLoc = 0;
+	};
+	D6F33A0212F8D89A0070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
+		name = "RecipesAppDelegate.m: 15";
+		rLen = 0;
+		rLoc = 361;
+		rType = 0;
+		vrLen = 1394;
+		vrLoc = 104;
+	};
+	D6F33A0312F8D89A0070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
+		name = "RecipesAppDelegate.m: 15";
+		rLen = 0;
+		rLoc = 421;
+		rType = 0;
+		vrLen = 1508;
+		vrLoc = 104;
+	};
+	D6F33A0412F8D89A0070303B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
+		name = "RecipesAppDelegate.m: 15";
+		rLen = 0;
+		rLoc = 421;
+		rType = 0;
+		vrLen = 1454;
+		vrLoc = 104;
 	};
 }

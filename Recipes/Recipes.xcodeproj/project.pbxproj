@@ -44,7 +44,7 @@
 		D6C047AF12F9F15100476D03 /* NewIngredientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewIngredientViewController.m; sourceTree = "<group>"; };
 		D6C047B112F9F16800476D03 /* NewIngredient.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewIngredient.xib; sourceTree = "<group>"; };
 		D6F3386B12F8A5C90070303B /* IngredientsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientsViewController.h; sourceTree = "<group>"; };
-		D6F3386C12F8A5C90070303B /* IngredientsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientsViewController.m; sourceTree = "<group>"; };
+		D6F3386C12F8A5C90070303B /* IngredientsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientsViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
 		D6F3386E12F8A6000070303B /* Ingredients.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Ingredients.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

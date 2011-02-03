@@ -54,21 +54,22 @@
 
 - (void) addIngredient:(NSString*)ingredientName
 {
+    NSInteger rowIndex = ingredients.count;
     [recipesController addIngredient:ingredientName forRecipe:self.title];
-    [tableView reloadData];
+    [tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:[NSIndexPath indexPathForRow:rowIndex inSection:0]] withRowAnimation:UITableViewRowAnimationRight];
 }
 
 - (void) removeIngredient:(NSString*)ingredientName
 {
+    NSInteger rowIndex = [ingredients indexOfObject:ingredientName];
     [recipesController removeIngredient:ingredientName forRecipe:self.title];
-    [tableView reloadData];
+    [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:[NSIndexPath indexPathForRow:rowIndex inSection:0]] withRowAnimation:UITableViewRowAnimationLeft];
 }
 
--(void) tableView:(UITableView*)tv commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath*)indexPath
+- (void) tableView:(UITableView*)tv commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath*)indexPath
 {
     if (editingStyle == UITableViewCellEditingStyleDelete && indexPath.row < [self.ingredients count]) {
-        [self removeIngredient:[[tv cellForRowAtIndexPath:indexPath] textLabel].text];
-        [tv deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationLeft];
+        [self removeIngredient:[ingredients objectAtIndex:indexPath.row]];
     }
 }
 

@@ -1,5 +1,6 @@
 #import "IngredientsViewController.h"
 #import "RecipesViewController.h"
+#import "NewIngredientViewController.h"
 
 @implementation IngredientsViewController
 
@@ -26,7 +27,7 @@
     }
 }
 
-- (void)tableView:(UITableView*)tv didSelectRowAtIndexPath:(NSIndexPath*)indexPath
+- (void) tableView:(UITableView*)tv didSelectRowAtIndexPath:(NSIndexPath*)indexPath
 {
     if (indexPath.row >= ingredients.count) {
         [recipesController displayAddNewIngredientScreen:self.title];
@@ -42,16 +43,25 @@
     }
     return UITableViewCellEditingStyleNone;
 }
+
 - (void) setIngredients:(NSArray*)newIngredients
 {
-    [ingredients release];
-    ingredients = [newIngredients retain];
+    if (ingredients != newIngredients) {
+        [ingredients release], ingredients = [newIngredients retain];
+        [tableView reloadData];
+    }
+}
+
+- (void) addIngredient:(NSString*)ingredientName
+{
+    [recipesController addIngredient:ingredientName forRecipe:self.title];
     [tableView reloadData];
 }
 
--(void)removeIngredient:(NSString*) ingredientName
+- (void) removeIngredient:(NSString*)ingredientName
 {
     [recipesController removeIngredient:ingredientName forRecipe:self.title];
+    [tableView reloadData];
 }
 
 -(void) tableView:(UITableView*)tv commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath*)indexPath
@@ -68,7 +78,8 @@
     if (nil == cell) {
         cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:nil] autorelease];
     }
-    if(indexPath.row < self.ingredients.count) {
+    
+    if (indexPath.row < self.ingredients.count) {
         cell.textLabel.text = [self.ingredients objectAtIndex:indexPath.row];
     } else {
         cell.textLabel.text = @"Add New Ingredient";
@@ -76,16 +87,15 @@
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
 
-        return cell;
+    return cell;
 }
 
 - (NSInteger) tableView:(UITableView*)tv numberOfRowsInSection:(NSInteger)section 
 {
     NSInteger count = self.ingredients.count;
-    if(self.editing) {
+    if (self.editing) {
         count++;
     }
-        
     return count;
 }
 

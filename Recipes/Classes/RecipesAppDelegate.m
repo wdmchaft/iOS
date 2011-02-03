@@ -26,11 +26,10 @@
     return [data allKeys];
 }
 
-- (void) addNewRecipeNamed:(NSString*) recipeName
+- (void) addNewRecipeNamed:(NSString*)recipeName
 {
     [data setValue:[NSMutableArray array] forKey:recipeName];
 }
-
 
 - (void) createDefaultData
 {
@@ -44,7 +43,6 @@
 {
     return [data valueForKey:recipeName];
 }
-
 
 - (void) removeIngredient:(NSString*) ingredient forRecipe:(NSString*)recipe
 {
@@ -63,7 +61,7 @@
     [navController pushViewController:ingredientsController animated:YES];
 }
 
-- (void) displayAddNewIngredientScreen:(NSString*) recipeName
+- (void) displayAddNewIngredientScreen:(NSString*)recipeName
 {
     newIngredientController.recipeName = recipeName;
     [navController pushViewController:newIngredientController animated:YES];

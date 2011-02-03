@@ -1,12 +1,15 @@
 #import "RecipesAppDelegate.h"
 #import "RecipesViewController.h"
 #import "IngredientsViewController.h"
+#import "NewIngredientViewController.h"
 
 @implementation RecipesAppDelegate
 
 @synthesize window;
 @synthesize recipesController;
 @synthesize recipes;
+@synthesize ingredientsController;
+@synthesize newIngredientController;
 
 - (void) dealloc 
 {
@@ -48,11 +51,22 @@
     [[data valueForKey:recipe] removeObject:ingredient];    
 }
 
+- (void) addIngredient:(NSString*) ingredient forRecipe:(NSString*)recipe
+{
+    [[data valueForKey:recipe] addObject:ingredient];    
+}
+
 - (void) recipeClicked:(NSString*)recipeName 
 {
     ingredientsController.ingredients = [self ingredientsForRecipe:recipeName];
     ingredientsController.title = recipeName;
     [navController pushViewController:ingredientsController animated:YES];
+}
+
+- (void) displayAddNewIngredientScreen:(NSString*) recipeName
+{
+    newIngredientController.recipeName = recipeName;
+    [navController pushViewController:newIngredientController animated:YES];
 }
 
 - (BOOL) application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions 

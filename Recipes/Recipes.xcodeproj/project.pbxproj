@@ -17,6 +17,8 @@
 		28D7ACF80DDB3853001CB0EB /* RecipesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */; };
 		D66F736E12F9A6B8006F0B82 /* AddRecipesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D66F736D12F9A6B8006F0B82 /* AddRecipesViewController.m */; };
 		D66F737012F9A6CB006F0B82 /* AddRecipe.xib in Resources */ = {isa = PBXBuildFile; fileRef = D66F736F12F9A6CB006F0B82 /* AddRecipe.xib */; };
+		D6C047B012F9F15100476D03 /* NewIngredientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C047AF12F9F15100476D03 /* NewIngredientViewController.m */; };
+		D6C047B212F9F16800476D03 /* NewIngredient.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6C047B112F9F16800476D03 /* NewIngredient.xib */; };
 		D6F3386D12F8A5C90070303B /* IngredientsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */; };
 		D6F3386F12F8A6000070303B /* Ingredients.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6F3386E12F8A6000070303B /* Ingredients.xib */; };
 /* End PBXBuildFile section */
@@ -38,6 +40,9 @@
 		D66F736C12F9A6B8006F0B82 /* AddRecipesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRecipesViewController.h; sourceTree = "<group>"; };
 		D66F736D12F9A6B8006F0B82 /* AddRecipesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRecipesViewController.m; sourceTree = "<group>"; };
 		D66F736F12F9A6CB006F0B82 /* AddRecipe.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddRecipe.xib; sourceTree = "<group>"; };
+		D6C047AE12F9F15100476D03 /* NewIngredientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewIngredientViewController.h; sourceTree = "<group>"; };
+		D6C047AF12F9F15100476D03 /* NewIngredientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewIngredientViewController.m; sourceTree = "<group>"; };
+		D6C047B112F9F16800476D03 /* NewIngredient.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewIngredient.xib; sourceTree = "<group>"; };
 		D6F3386B12F8A5C90070303B /* IngredientsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientsViewController.h; sourceTree = "<group>"; };
 		D6F3386C12F8A5C90070303B /* IngredientsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientsViewController.m; sourceTree = "<group>"; };
 		D6F3386E12F8A6000070303B /* Ingredients.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Ingredients.xib; sourceTree = "<group>"; };
@@ -68,6 +73,8 @@
 				D6F3386C12F8A5C90070303B /* IngredientsViewController.m */,
 				D66F736C12F9A6B8006F0B82 /* AddRecipesViewController.h */,
 				D66F736D12F9A6B8006F0B82 /* AddRecipesViewController.m */,
+				D6C047AE12F9F15100476D03 /* NewIngredientViewController.h */,
+				D6C047AF12F9F15100476D03 /* NewIngredientViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -109,6 +116,7 @@
 				8D1107310486CEB800E47090 /* Recipes-Info.plist */,
 				D6F3386E12F8A6000070303B /* Ingredients.xib */,
 				D66F736F12F9A6CB006F0B82 /* AddRecipe.xib */,
+				D6C047B112F9F16800476D03 /* NewIngredient.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -176,6 +184,7 @@
 				2899E5220DE3E06400AC0155 /* RecipesViewController.xib in Resources */,
 				D6F3386F12F8A6000070303B /* Ingredients.xib in Resources */,
 				D66F737012F9A6CB006F0B82 /* AddRecipe.xib in Resources */,
+				D6C047B212F9F16800476D03 /* NewIngredient.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +200,7 @@
 				28D7ACF80DDB3853001CB0EB /* RecipesViewController.m in Sources */,
 				D6F3386D12F8A5C90070303B /* IngredientsViewController.m in Sources */,
 				D66F736E12F9A6B8006F0B82 /* AddRecipesViewController.m in Sources */,
+				D6C047B012F9F15100476D03 /* NewIngredientViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

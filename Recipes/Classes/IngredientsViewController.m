@@ -4,6 +4,7 @@
 @implementation IngredientsViewController
 
 @synthesize ingredients;
+@synthesize recipesController;
 
 - (void) dealloc 
 {
@@ -24,6 +25,14 @@
         }
     }
 }
+
+- (void)tableView:(UITableView*)tv didSelectRowAtIndexPath:(NSIndexPath*)indexPath
+{
+    if (indexPath.row >= ingredients.count) {
+        [recipesController displayAddNewIngredientScreen:self.title];
+    }
+}
+
 - (UITableViewCellEditingStyle)tableView:(UITableView*)tableView editingStyleForRowAtIndexPath:(NSIndexPath*) indexPath 
 {
     if (indexPath.row < [self.ingredients count]) {
@@ -64,7 +73,6 @@
     } else {
         cell.textLabel.text = @"Add New Ingredient";
         [cell.textLabel setTextColor:[UIColor lightGrayColor]];
-        cell.hidesAccessoryWhenEditing = NO;
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
 

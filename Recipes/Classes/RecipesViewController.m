@@ -25,10 +25,20 @@
     [appDelegate removeIngredient:ingredient forRecipe:recipe];    
 }
 
-
-- (UITableViewCell*) tableView:(UITableView*)tableView cellForRowAtIndexPath:(NSIndexPath*)indexPath 
+- (void) addIngredient:(NSString*) ingredient forRecipe:(NSString*)recipe
 {
-    UITableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:@"recipeCell"];
+    [appDelegate addIngredient:ingredient forRecipe:recipe];    
+}
+
+- (void) displayAddNewIngredientScreen:(NSString*) recipeName
+{
+    [appDelegate displayAddNewIngredientScreen:recipeName];    
+}
+
+
+- (UITableViewCell*) tableView:(UITableView*)recipeView cellForRowAtIndexPath:(NSIndexPath*)indexPath 
+{
+    UITableViewCell* cell = [recipeView dequeueReusableCellWithIdentifier:@"recipeCell"];
     if (nil == cell){
         cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:@"recipeCell"] autorelease];
     }
@@ -42,9 +52,9 @@
     return [appDelegate.recipes count];   
 }
 
-- (void) tableView:(UITableView*)tableView didSelectRowAtIndexPath:(NSIndexPath*)indexPath 
+- (void) tableView:(UITableView*)recipeView didSelectRowAtIndexPath:(NSIndexPath*)indexPath 
 {
-    [appDelegate recipeClicked:[[tableView cellForRowAtIndexPath:indexPath] textLabel].text];
+    [appDelegate recipeClicked:[[recipeView cellForRowAtIndexPath:indexPath] textLabel].text];
 }
 
 - (void) viewDidLoad 

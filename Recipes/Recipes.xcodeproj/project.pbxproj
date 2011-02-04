@@ -19,6 +19,8 @@
 		D66F737012F9A6CB006F0B82 /* AddRecipe.xib in Resources */ = {isa = PBXBuildFile; fileRef = D66F736F12F9A6CB006F0B82 /* AddRecipe.xib */; };
 		D6C047B012F9F15100476D03 /* NewIngredientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C047AF12F9F15100476D03 /* NewIngredientViewController.m */; };
 		D6C047B212F9F16800476D03 /* NewIngredient.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6C047B112F9F16800476D03 /* NewIngredient.xib */; };
+		D6C270E712FC6F6200AC2776 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C270E612FC6F6200AC2776 /* CoreData.framework */; };
+		D6C270E912FC6F9400AC2776 /* Recipe.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = D6C270E812FC6F9400AC2776 /* Recipe.xcdatamodel */; };
 		D6F3386D12F8A5C90070303B /* IngredientsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */; };
 		D6F3386F12F8A6000070303B /* Ingredients.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6F3386E12F8A6000070303B /* Ingredients.xib */; };
 /* End PBXBuildFile section */
@@ -43,6 +45,8 @@
 		D6C047AE12F9F15100476D03 /* NewIngredientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewIngredientViewController.h; sourceTree = "<group>"; };
 		D6C047AF12F9F15100476D03 /* NewIngredientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewIngredientViewController.m; sourceTree = "<group>"; };
 		D6C047B112F9F16800476D03 /* NewIngredient.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewIngredient.xib; sourceTree = "<group>"; };
+		D6C270E612FC6F6200AC2776 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D6C270E812FC6F9400AC2776 /* Recipe.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Recipe.xcdatamodel; sourceTree = "<group>"; };
 		D6F3386B12F8A5C90070303B /* IngredientsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientsViewController.h; sourceTree = "<group>"; };
 		D6F3386C12F8A5C90070303B /* IngredientsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientsViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
 		D6F3386E12F8A6000070303B /* Ingredients.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Ingredients.xib; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				D6C270E712FC6F6200AC2776 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,10 +74,10 @@
 				1D3623250D0F684500981E51 /* RecipesAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */,
-				D6F3386B12F8A5C90070303B /* IngredientsViewController.h */,
-				D6F3386C12F8A5C90070303B /* IngredientsViewController.m */,
 				D66F736C12F9A6B8006F0B82 /* AddRecipesViewController.h */,
 				D66F736D12F9A6B8006F0B82 /* AddRecipesViewController.m */,
+				D6F3386B12F8A5C90070303B /* IngredientsViewController.h */,
+				D6F3386C12F8A5C90070303B /* IngredientsViewController.m */,
 				D6C047AE12F9F15100476D03 /* NewIngredientViewController.h */,
 				D6C047AF12F9F15100476D03 /* NewIngredientViewController.m */,
 			);
@@ -117,6 +122,7 @@
 				D6F3386E12F8A6000070303B /* Ingredients.xib */,
 				D66F736F12F9A6CB006F0B82 /* AddRecipe.xib */,
 				D6C047B112F9F16800476D03 /* NewIngredient.xib */,
+				D6C270E812FC6F9400AC2776 /* Recipe.xcdatamodel */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				D6C270E612FC6F6200AC2776 /* CoreData.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -201,6 +208,7 @@
 				D6F3386D12F8A5C90070303B /* IngredientsViewController.m in Sources */,
 				D66F736E12F9A6B8006F0B82 /* AddRecipesViewController.m in Sources */,
 				D6C047B012F9F15100476D03 /* NewIngredientViewController.m in Sources */,
+				D6C270E912FC6F9400AC2776 /* Recipe.xcdatamodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

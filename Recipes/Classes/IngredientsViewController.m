@@ -34,6 +34,11 @@
     }
 }
 
+- (void) tableView:(UITableView*) tableView moveRowAtIndexPath:(NSIndexPath*) sourceIndexPath toindexPath:(NSIndexPath*)destinationIndexPath
+{
+    
+}
+
 - (UITableViewCellEditingStyle)tableView:(UITableView*)tableView editingStyleForRowAtIndexPath:(NSIndexPath*) indexPath 
 {
     if (indexPath.row < [self.ingredients count]) {

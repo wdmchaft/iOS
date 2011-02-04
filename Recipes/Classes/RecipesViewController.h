@@ -18,6 +18,9 @@
 - (void) displayAddNewIngredientScreen:(NSString*) recipeName;
 
 @property (nonatomic, retain) NSManagedObjectContext* managedObjectContext;
+@property (nonatomic, retain) NSMutableArray* recipes;
+
+- (void) fetchRecords;
 
 @end
 

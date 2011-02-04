@@ -1,13 +1,17 @@
 #import "RecipesViewController.h"
 #import "RecipesAppDelegate.h"
 #import "AddRecipesViewController.h"
+#import "Recipe.h"
+
 
 @implementation RecipesViewController
 @synthesize managedObjectContext;
+@synthesize recipes;
 
 - (void) dealloc 
 {
     [managedObjectContext release], managedObjectContext = nil;
+    [recipes release], recipes = nil;
     [super dealloc];
 }
 
@@ -62,8 +66,38 @@
 - (void) viewDidLoad 
 {
     [super viewDidLoad];
-    self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd                                                                                             target:self action: @selector(edit:)] autorelease];
+    self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd                                                                                          target:self action: @selector(edit:)] autorelease];
+    [self fetchRecords];
 }
-                                               
+
+- (void) fetchRecords 
+{
+    //Defines which table entity to use
+    NSEntityDescription* entity = [NSEntityDescription entityForName:NSStringFromClass([Recipe class]) inManagedObjectContext:managedObjectContext];
+    
+    //sets up fetchrequest
+    NSFetchRequest* request = [[NSFetchRequest alloc] init];
+    [request setEntity:entity];
+    
+    //Defines how records are sorted
+    NSSortDescriptor* sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:NO];
+    NSArray* sortDescriptors = [NSArray arrayWithObject:sortDescriptor];
+    [request setSortDescriptors:sortDescriptors];
+    [sortDescriptor release];
+    
+    //Fetch Records and handle errors
+    NSError* error;
+    NSMutableArray* mutableFetchResults = [[managedObjectContext executeFetchRequest:request error:&error] mutableCopy];
+    
+    if (!mutableFetchResults) {
+        //Handle Error
+    }
+    
+    //Save Data to an Array
+    [self setRecipes: mutableFetchResults];
+    [mutableFetchResults release];
+    [request release];
+}
+
                                                
 @end

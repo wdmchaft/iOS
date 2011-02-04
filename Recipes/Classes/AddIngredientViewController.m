@@ -1,7 +1,7 @@
-#import "NewIngredientViewController.h"
+#import "AddIngredientViewController.h"
 #import "IngredientsViewController.h"
 
-@implementation NewIngredientViewController
+@implementation AddIngredientViewController
 
 @synthesize recipeName;
 @synthesize ingredientsController;

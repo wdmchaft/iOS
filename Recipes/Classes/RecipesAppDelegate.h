@@ -1,7 +1,7 @@
 
 @class RecipesViewController;
 @class IngredientsViewController;
-@class NewIngredientViewController;
+@class AddIngredientViewController;
 @class Recipe;
 
 @interface RecipesAppDelegate : NSObject <UIApplicationDelegate>
@@ -11,7 +11,7 @@
     IBOutlet RecipesViewController* recipesController;
     IBOutlet UINavigationController* navController;
     IBOutlet IngredientsViewController* ingredientsController; 
-    IBOutlet NewIngredientViewController* newIngredientController;
+    IBOutlet AddIngredientViewController* newIngredientController;
     /**/
     NSManagedObjectModel* managedObjectModel;
     NSManagedObjectContext* managedObjectContext;
@@ -21,7 +21,7 @@
 @property (nonatomic, retain) IBOutlet UIWindow* window;
 @property (nonatomic, retain) IBOutlet RecipesViewController* recipesController;
 @property (nonatomic, retain) IBOutlet IngredientsViewController* ingredientsController;
-@property (nonatomic, retain) IBOutlet NewIngredientViewController *newIngredientController;
+@property (nonatomic, retain) IBOutlet AddIngredientViewController *newIngredientController;
 
 - (void) recipeClicked:(Recipe*)recipeName;
 - (void) displayAddNewIngredientScreen:(NSString*)recipeName;

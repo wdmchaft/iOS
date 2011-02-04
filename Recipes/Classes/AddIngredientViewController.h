@@ -2,7 +2,7 @@
 
 @class IngredientsViewController;
 
-@interface NewIngredientViewController : UIViewController 
+@interface AddIngredientViewController : UIViewController 
 {
     NSString* recipeName;
     IBOutlet UITextField* textField;

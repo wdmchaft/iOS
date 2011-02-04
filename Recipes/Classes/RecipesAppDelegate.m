@@ -1,7 +1,7 @@
 #import "RecipesAppDelegate.h"
 #import "RecipesViewController.h"
 #import "IngredientsViewController.h"
-#import "NewIngredientViewController.h"
+#import "AddIngredientViewController.h"
 #import "Recipe.h"
 
 @implementation RecipesAppDelegate

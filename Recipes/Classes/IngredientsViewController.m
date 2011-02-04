@@ -1,6 +1,6 @@
 #import "IngredientsViewController.h"
 #import "RecipesViewController.h"
-#import "NewIngredientViewController.h"
+#import "AddIngredientViewController.h"
 #import "Ingredient.h"
 #import "Recipe.h"
 

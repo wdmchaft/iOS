@@ -6,7 +6,6 @@
 
 @interface RecipesAppDelegate : NSObject <UIApplicationDelegate>
 {
-    NSMutableDictionary* data;
     IBOutlet UIWindow* window;
     IBOutlet RecipesViewController* recipesController;
     IBOutlet UINavigationController* navController;

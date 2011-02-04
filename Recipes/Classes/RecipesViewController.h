@@ -12,9 +12,6 @@
 - (IBAction) edit:(id)sender;
 
 - (void) addNewRecipeNamed:(NSString*) recipeName;
-
-- (void) removeIngredient:(NSString*) ingredient forRecipe:(NSString*)recipe;
-- (void) addIngredient:(NSString*) ingredient forRecipe:(NSString*)recipe;
 - (void) displayAddNewIngredientScreen:(NSString*) recipeName;
 
 @property (nonatomic, retain) NSManagedObjectContext* managedObjectContext;

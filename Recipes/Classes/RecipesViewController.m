@@ -36,16 +36,6 @@
     [tableView reloadData];
 }
 
-- (void) removeIngredient:(NSString*) ingredient forRecipe:(NSString*)recipe
-{
-    [appDelegate removeIngredient:ingredient forRecipe:recipe];    
-}
-
-- (void) addIngredient:(NSString*) ingredient forRecipe:(NSString*)recipe
-{
-    [appDelegate addIngredient:ingredient forRecipe:recipe];    
-}
-
 - (void) displayAddNewIngredientScreen:(NSString*) recipeName
 {
     [appDelegate displayAddNewIngredientScreen:recipeName];    
@@ -71,7 +61,8 @@
 
 - (void) tableView:(UITableView*)recipeView didSelectRowAtIndexPath:(NSIndexPath*)indexPath 
 {
-    [appDelegate recipeClicked:[[recipeView cellForRowAtIndexPath:indexPath] textLabel].text];
+    Recipe* recipe = [self.recipes objectAtIndex:indexPath.row];
+    [appDelegate recipeClicked:recipe];
 }
 
 - (void) viewDidLoad 

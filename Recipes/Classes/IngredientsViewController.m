@@ -1,15 +1,20 @@
 #import "IngredientsViewController.h"
 #import "RecipesViewController.h"
 #import "NewIngredientViewController.h"
+#import "Ingredient.h"
 
 @implementation IngredientsViewController
 
 @synthesize ingredients;
 @synthesize recipesController;
+@synthesize managedObjectContext;
+@synthesize recipe;
 
 - (void) dealloc 
 {
+    [managedObjectContext release], managedObjectContext = nil;
     [ingredients release], ingredients = nil;
+    [recipe release], recipe = nil;
     [super dealloc];
 }
 
@@ -49,25 +54,31 @@
     return UITableViewCellEditingStyleNone;
 }
 
-- (void) setIngredients:(NSArray*)newIngredients
-{
-    if (ingredients != newIngredients) {
-        [ingredients release], ingredients = [newIngredients retain];
-        [tableView reloadData];
-    }
-}
-
 - (void) addIngredient:(NSString*)ingredientName
 {
     NSInteger rowIndex = ingredients.count;
-    [recipesController addIngredient:ingredientName forRecipe:self.title];
+    
+    Ingredient* ingredient = [NSEntityDescription insertNewObjectForEntityForName:NSStringFromClass([Ingredient class]) inManagedObjectContext:managedObjectContext];
+    ingredient.recipe = recipe;
+    ingredient.name = ingredientName;
+    NSError* error;
+    if (![managedObjectContext save:&error]) {
+        //Error Warning??
+    }
+    [self.ingredients insertObject:ingredient atIndex:rowIndex];
+
     [tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:[NSIndexPath indexPathForRow:rowIndex inSection:0]] withRowAnimation:UITableViewRowAnimationRight];
 }
 
-- (void) removeIngredient:(NSString*)ingredientName
+- (void) removeIngredient:(Ingredient*)ingredient
 {
-    NSInteger rowIndex = [ingredients indexOfObject:ingredientName];
-    [recipesController removeIngredient:ingredientName forRecipe:self.title];
+    NSInteger rowIndex = [ingredients indexOfObject:ingredient];
+    [ingredients removeObjectAtIndex:rowIndex];
+    [managedObjectContext deleteObject:ingredient];
+    NSError* error;
+    if (![managedObjectContext save:&error]) {
+        //Error Warning??
+    }
     [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:[NSIndexPath indexPathForRow:rowIndex inSection:0]] withRowAnimation:UITableViewRowAnimationLeft];
 }
 
@@ -86,7 +97,8 @@
     }
     
     if (indexPath.row < self.ingredients.count) {
-        cell.textLabel.text = [self.ingredients objectAtIndex:indexPath.row];
+        Ingredient* ingredient = [self.ingredients objectAtIndex:indexPath.row];
+        cell.textLabel.text = ingredient.name;
     } else {
         cell.textLabel.text = @"Add New Ingredient";
         [cell.textLabel setTextColor:[UIColor lightGrayColor]];
@@ -107,7 +119,39 @@
 
 -(void) viewDidLoad
 {
-    self.navigationItem.rightBarButtonItem = self.editButtonItem;    
+    self.navigationItem.rightBarButtonItem = self.editButtonItem;   
+    [self fetchRecords];
+}
+
+- (void) fetchRecords 
+{
+    //Defines which table entity to use
+    NSEntityDescription* entity = [NSEntityDescription entityForName:NSStringFromClass([Ingredient class]) inManagedObjectContext:managedObjectContext];
+    
+    //sets up fetchrequest
+    NSFetchRequest* request = [[NSFetchRequest alloc] init];
+    [request setEntity:entity];
+    
+    [request setPredicate:[NSPredicate predicateWithFormat:@"recipe == %@" argumentArray:[NSArray arrayWithObject:self.recipe]]];
+    
+    //Defines how records are sorted
+    NSSortDescriptor* sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:NO];
+    NSArray* sortDescriptors = [NSArray arrayWithObject:sortDescriptor];
+    [request setSortDescriptors:sortDescriptors];
+    [sortDescriptor release];
+    
+    //Fetch Records and handle errors
+    NSError* error;
+    NSMutableArray* mutableFetchResults = [[managedObjectContext executeFetchRequest:request error:&error] mutableCopy];
+    
+    if (!mutableFetchResults) {
+        //Handle Error
+    }
+    
+    //Save Data to an Array
+    [self setIngredients: mutableFetchResults];
+    [mutableFetchResults release];
+    [request release];
 }
 
 @end

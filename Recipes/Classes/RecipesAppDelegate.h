@@ -2,6 +2,7 @@
 @class RecipesViewController;
 @class IngredientsViewController;
 @class NewIngredientViewController;
+@class Recipe;
 
 @interface RecipesAppDelegate : NSObject <UIApplicationDelegate>
 {
@@ -24,10 +25,7 @@
 
 @property (readonly) NSArray* recipes;
 
-- (void) recipeClicked:(NSString*)recipeName;
-- (void) addNewRecipeNamed:(NSString*)recipeName;
-- (void) removeIngredient:(NSString*)ingredient forRecipe:(NSString*)recipe;
-- (void) addIngredient:(NSString*)ingredient forRecipe:(NSString*)recipe;
+- (void) recipeClicked:(Recipe*)recipeName;
 - (void) displayAddNewIngredientScreen:(NSString*)recipeName;
 
 @property (nonatomic, retain, readonly) NSManagedObjectModel* managedObjectModel;

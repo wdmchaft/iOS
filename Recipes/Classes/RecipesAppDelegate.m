@@ -2,6 +2,7 @@
 #import "RecipesViewController.h"
 #import "IngredientsViewController.h"
 #import "NewIngredientViewController.h"
+#import "Recipe.h"
 
 @implementation RecipesAppDelegate
 
@@ -34,6 +35,7 @@
     [data setValue:[NSMutableArray array] forKey:recipeName];
 }
 
+/*
 - (void) createDefaultData
 {
     data = [[NSMutableDictionary dictionary] retain];
@@ -41,26 +43,13 @@
     [data setValue:[NSMutableArray arrayWithObjects:@"Dim Sum", @"Mad Flavor", @"Heavy Flow", @"Bangin n00dlz", nil] forKey:@"Bangin' Dim Sum"];
     [data setValue:[NSMutableArray arrayWithObjects:@"Dim Sum", @"Mad Crazy Flavor", @"The Heaviest Flow", @"The Illest Types of n00dlz", nil] forKey:@"The Illest Dim Sum"];
 }
+*/
 
-- (NSArray*) ingredientsForRecipe:(NSString*)recipeName 
+- (void) recipeClicked:(Recipe*)recipe 
 {
-    return [data valueForKey:recipeName];
-}
-
-- (void) removeIngredient:(NSString*) ingredient forRecipe:(NSString*)recipe
-{
-    [[data valueForKey:recipe] removeObject:ingredient];    
-}
-
-- (void) addIngredient:(NSString*) ingredient forRecipe:(NSString*)recipe
-{
-    [[data valueForKey:recipe] addObject:ingredient];    
-}
-
-- (void) recipeClicked:(NSString*)recipeName 
-{
-    ingredientsController.ingredients = [self ingredientsForRecipe:recipeName];
-    ingredientsController.title = recipeName;
+    ingredientsController.managedObjectContext = self.managedObjectContext;
+    ingredientsController.recipe = recipe;
+    ingredientsController.title = recipe.name;
     [navController pushViewController:ingredientsController animated:YES];
 }
 
@@ -77,7 +66,6 @@
     
     [self.window addSubview:navController.view];
     [self.window makeKeyAndVisible];
-    [self createDefaultData];
 
     return YES;
 }

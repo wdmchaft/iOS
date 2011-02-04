@@ -22,7 +22,17 @@
 
 - (void) addNewRecipeNamed:(NSString*) recipeName
 {
-    [appDelegate addNewRecipeNamed:recipeName];
+    Recipe* recipe = [NSEntityDescription insertNewObjectForEntityForName:NSStringFromClass([Recipe class]) inManagedObjectContext:managedObjectContext];
+    recipe.name = recipeName;
+    
+    NSError* error;
+    
+    if (![managedObjectContext save:&error]) {
+        //Error Warning??
+    }
+    
+    [self.recipes insertObject:recipe atIndex:0];
+    
     [tableView reloadData];
 }
 
@@ -48,14 +58,15 @@
     if (nil == cell){
         cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:@"recipeCell"] autorelease];
     }
-    cell.textLabel.text = [appDelegate.recipes objectAtIndex:indexPath.row];             
+    Recipe* recipe = [self.recipes objectAtIndex:indexPath.row];
+    cell.textLabel.text = recipe.name;             
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
 
 - (NSInteger) tableView:(UITableView*)tv numberOfRowsInSection:(NSInteger)section 
 {
-    return [appDelegate.recipes count];   
+    return [self.recipes count];   
 }
 
 - (void) tableView:(UITableView*)recipeView didSelectRowAtIndexPath:(NSIndexPath*)indexPath 

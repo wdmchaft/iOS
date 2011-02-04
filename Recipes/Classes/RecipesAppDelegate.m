@@ -8,7 +8,6 @@
 
 @synthesize window;
 @synthesize recipesController;
-@synthesize recipes;
 @synthesize ingredientsController;
 @synthesize newIngredientController;
 

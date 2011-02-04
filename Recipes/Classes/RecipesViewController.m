@@ -3,6 +3,11 @@
 #import "AddRecipesViewController.h"
 #import "Recipe.h"
 
+@interface RecipesViewController ()
+@property (nonatomic, retain) NSMutableArray* recipes;
+- (IBAction) edit:(id)sender;
+- (void) fetchRecords;
+@end
 
 @implementation RecipesViewController
 @synthesize managedObjectContext;

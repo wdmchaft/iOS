@@ -23,8 +23,6 @@
 @property (nonatomic, retain) IBOutlet IngredientsViewController* ingredientsController;
 @property (nonatomic, retain) IBOutlet NewIngredientViewController *newIngredientController;
 
-@property (readonly) NSArray* recipes;
-
 - (void) recipeClicked:(Recipe*)recipeName;
 - (void) displayAddNewIngredientScreen:(NSString*)recipeName;
 

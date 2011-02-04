@@ -2,6 +2,16 @@
 #import "RecipesViewController.h"
 #import "NewIngredientViewController.h"
 #import "Ingredient.h"
+#import "Recipe.h"
+
+
+@interface IngredientsViewController ()
+@property (nonatomic, retain) RecipesViewController* recipesController;
+@property (nonatomic, retain) NSMutableArray* ingredients;
+- (void) removeIngredient:(Ingredient*)ingredient;
+- (void) fetchRecords;
+@end
+
 
 @implementation IngredientsViewController
 
@@ -117,9 +127,15 @@
     return count;
 }
 
--(void) viewDidLoad
+- (void) viewDidLoad
 {
+    [super viewDidLoad];
     self.navigationItem.rightBarButtonItem = self.editButtonItem;   
+}
+
+- (void) viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
     [self fetchRecords];
 }
 
@@ -132,7 +148,7 @@
     NSFetchRequest* request = [[NSFetchRequest alloc] init];
     [request setEntity:entity];
     
-    [request setPredicate:[NSPredicate predicateWithFormat:@"recipe == %@" argumentArray:[NSArray arrayWithObject:self.recipe]]];
+    [request setPredicate:[NSPredicate predicateWithFormat:@"recipe == %@", self.recipe]];
     
     //Defines how records are sorted
     NSSortDescriptor* sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:NO];
@@ -152,6 +168,8 @@
     [self setIngredients: mutableFetchResults];
     [mutableFetchResults release];
     [request release];
+    
+    [tableView reloadData];
 }
 
 @end

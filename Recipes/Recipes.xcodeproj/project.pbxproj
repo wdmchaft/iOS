@@ -21,6 +21,8 @@
 		D6C047B212F9F16800476D03 /* NewIngredient.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6C047B112F9F16800476D03 /* NewIngredient.xib */; };
 		D6C270E712FC6F6200AC2776 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C270E612FC6F6200AC2776 /* CoreData.framework */; };
 		D6C270E912FC6F9400AC2776 /* Recipe.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = D6C270E812FC6F9400AC2776 /* Recipe.xcdatamodel */; };
+		D6C2711012FC780C00AC2776 /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2710F12FC780C00AC2776 /* Recipe.m */; };
+		D6C2712B12FC7A6900AC2776 /* Ingredient.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2712A12FC7A6900AC2776 /* Ingredient.m */; };
 		D6F3386D12F8A5C90070303B /* IngredientsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F3386C12F8A5C90070303B /* IngredientsViewController.m */; };
 		D6F3386F12F8A6000070303B /* Ingredients.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6F3386E12F8A6000070303B /* Ingredients.xib */; };
 /* End PBXBuildFile section */
@@ -47,6 +49,10 @@
 		D6C047B112F9F16800476D03 /* NewIngredient.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewIngredient.xib; sourceTree = "<group>"; };
 		D6C270E612FC6F6200AC2776 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D6C270E812FC6F9400AC2776 /* Recipe.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Recipe.xcdatamodel; sourceTree = "<group>"; };
+		D6C2710E12FC780C00AC2776 /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		D6C2710F12FC780C00AC2776 /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
+		D6C2712912FC7A6900AC2776 /* Ingredient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ingredient.h; sourceTree = "<group>"; };
+		D6C2712A12FC7A6900AC2776 /* Ingredient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ingredient.m; sourceTree = "<group>"; };
 		D6F3386B12F8A5C90070303B /* IngredientsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientsViewController.h; sourceTree = "<group>"; };
 		D6F3386C12F8A5C90070303B /* IngredientsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientsViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
 		D6F3386E12F8A6000070303B /* Ingredients.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Ingredients.xib; sourceTree = "<group>"; };
@@ -70,6 +76,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D6C2713A12FC7C0D00AC2776 /* Model */,
 				1D3623240D0F684500981E51 /* RecipesAppDelegate.h */,
 				1D3623250D0F684500981E51 /* RecipesAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */,
@@ -136,6 +143,17 @@
 				D6C270E612FC6F6200AC2776 /* CoreData.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6C2713A12FC7C0D00AC2776 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6C2710E12FC780C00AC2776 /* Recipe.h */,
+				D6C2710F12FC780C00AC2776 /* Recipe.m */,
+				D6C2712912FC7A6900AC2776 /* Ingredient.h */,
+				D6C2712A12FC7A6900AC2776 /* Ingredient.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +227,8 @@
 				D66F736E12F9A6B8006F0B82 /* AddRecipesViewController.m in Sources */,
 				D6C047B012F9F15100476D03 /* NewIngredientViewController.m in Sources */,
 				D6C270E912FC6F9400AC2776 /* Recipe.xcdatamodel in Sources */,
+				D6C2711012FC780C00AC2776 /* Recipe.m in Sources */,
+				D6C2712B12FC7A6900AC2776 /* Ingredient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

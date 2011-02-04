@@ -3,9 +3,11 @@
 #import "AddRecipesViewController.h"
 
 @implementation RecipesViewController
+@synthesize managedObjectContext;
 
 - (void) dealloc 
 {
+    [managedObjectContext release], managedObjectContext = nil;
     [super dealloc];
 }
 

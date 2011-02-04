@@ -25,6 +25,13 @@
     self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
+- (void) viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    textField.text = nil;
+}
+
 - (void) textFieldDidEndEditing:(UITextField*)tf 
 {
     if (tf.text.length > 0) {

@@ -9,6 +9,13 @@
     [super dealloc];
 }
 
+- (void) viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    textField.text = nil;
+}
+
 - (IBAction) save:(id)sender
 {
     [recipesController addNewRecipeNamed:textField.text];
